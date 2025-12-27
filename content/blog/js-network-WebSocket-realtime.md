@@ -15,12 +15,12 @@ Nhưng thế giới web hiện đại đòi hỏi nhiều hơn thế. Người d
 Trước khi WebSocket trở nên phổ biến, để làm chức năng thông báo hay chat, tôi thường phải dùng kỹ thuật **Polling** (hoặc Long-polling).
 
 Cơ chế của Polling khá "ngây thơ": Client cứ mỗi 1-2 giây lại gửi một request lên Server hỏi: *"Có tin nhắn mới không?"*.
+
 * Nếu không: Server trả về "Không".
+
 * Nếu có: Server trả về tin nhắn.
 
 Cách làm này tạo ra hàng nghìn request thừa thãi, gây lãng phí băng thông và tài nguyên server kinh khủng, đồng thời độ trễ vẫn cao.
-
-
 
 WebSocket thay đổi hoàn toàn cuộc chơi. Nó thiết lập một đường ống kết nối hai chiều bền vững (persistent connection) giữa Client và Server. Một khi kết nối được thiết lập (thông qua quá trình bắt tay - Handshake), cả hai bên có thể đẩy dữ liệu cho nhau bất cứ lúc nào mà không cần chờ bên kia hỏi.
 
@@ -35,6 +35,7 @@ Khác với `http://` hay `https://`, WebSocket sử dụng giao thức `ws://` 
 Dù JavaScript trình duyệt có sẵn API `WebSocket`, và Node.js có thư viện `ws` rất mạnh, nhưng trong các dự án thực tế, tôi ưu tiên sử dụng **Socket.io**.
 
 Socket.io là một thư viện bọc bên ngoài WebSocket. Nó giải quyết giúp tôi những vấn đề đau đầu:
+
 1.  **Tự động kết nối lại (Auto-reconnect):** Khi mạng chập chờn, client tự tìm cách kết nối lại.
 2.  **Fallback:** Nếu trình duyệt quá cũ hoặc mạng chặn WebSocket, nó tự động chuyển về Long-polling để đảm bảo ứng dụng vẫn chạy.
 3.  **Room & Namespace:** Hỗ trợ chia phòng chat cực dễ dàng.
@@ -91,6 +92,7 @@ socket.on('chat message', (msg) => {
 ```
 
 ## Thách thức khi vận hành hệ thống Real-time
+
 Lập trình WebSocket thú vị, nhưng vận hành nó ở quy mô lớn (Production) lại là câu chuyện khác. Dưới đây là hai vấn đề lớn tôi từng gặp phải:
 
 1. Vấn đề quy mô (Scaling)
@@ -102,6 +104,6 @@ Giải pháp: Sử dụng Redis Pub/Sub làm trung gian. Khi Server 1 nhận tin
 Không giống như HTTP (gửi xong là quên), WebSocket yêu cầu server phải nhớ ai đang kết nối. Việc phát hiện "kết nối ma" (kết nối bị đứt nhưng server vẫn nghĩ là đang online) rất quan trọng để giải phóng tài nguyên bộ nhớ. Cơ chế Heartbeat (Ping/Pong) là bắt buộc để kiểm tra sức khỏe kết nối định kỳ.
 
 ---
-
 ## Lời kết
+
 WebSocket mở ra cánh cửa cho các ứng dụng tương tác cao mà HTTP truyền thống không thể làm tốt. Nếu bạn đang định làm app chat, game online, hay hệ thống theo dõi giá coin, chứng khoán, thì WebSocket cùng với Node.js là bộ đôi hoàn hảo để bắt đầu.

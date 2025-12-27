@@ -20,15 +20,18 @@ Java hoạt động trên máy ảo **JVM** và sử dụng cơ chế **đa lu�
 truyền thống, rất phù hợp với các hệ thống lớn và yêu cầu độ ổn định cao.
 
 ### Cơ chế hoạt động (Blocking I/O & Threads)
+
 - Java thường tạo **một thread cho mỗi kết nối**
 - Xử lý song song thực sự, tận dụng tốt CPU đa nhân
 - Phù hợp với các tác vụ **CPU-bound**
 
 ### Hệ sinh thái mạnh mẽ
+
 - **Spring Boot**: Tiêu chuẩn cho Backend doanh nghiệp và Microservices
 - **Netty**: Thư viện mạng hiệu năng cao, độ trễ thấp (game server, tài chính)
 
 ### Ưu điểm
+
 - **Static Typing (Định kiểu tĩnh)**: Phát hiện lỗi sớm, dễ bảo trì hệ thống lớn
 - **Xử lý tác vụ nặng**: Thuật toán phức tạp, mã hóa, nén dữ liệu
 
@@ -40,15 +43,18 @@ Khi nói đến JavaScript trong lập trình mạng, chúng ta đang nói đế
 môi trường chạy JavaScript phía server.
 
 ### Cơ chế hoạt động (Non-blocking I/O & Event Loop)
+
 - Đơn luồng (single-threaded)
 - Bất đồng bộ, hướng sự kiện (event-driven)
 - Không chờ I/O hoàn thành, tối ưu cho **I/O-bound**
 
 ### Đồng nhất ngôn ngữ
+
 - Dùng JavaScript cho cả Client & Server (Full-stack)
 - Dữ liệu JSON là mặc định, dễ tích hợp frontend
 
 ### Ưu điểm
+
 - **High Concurrency**: Xử lý hàng nghìn kết nối với ít RAM
 - **Real-time**: WebSocket, Socket.io cho chat, streaming, dashboard
 
@@ -57,7 +63,7 @@ môi trường chạy JavaScript phía server.
 ## 3. Bảng so sánh tóm tắt
 
 | Tiêu chí | Java | JavaScript (Node.js) |
-|--------|------|---------------------|
+|----------|------|----------------------|
 | Mô hình xử lý | Đa luồng, Blocking I/O | Đơn luồng, Non-blocking I/O |
 | Kiểu dữ liệu | Tĩnh (Static typing) | Động (Dynamic typing) |
 | Hiệu năng CPU | Rất cao | Trung bình |
@@ -73,11 +79,13 @@ Việc chọn ngôn ngữ không chỉ dựa trên sở thích,
 mà phải dựa trên **bản chất dữ liệu và lưu lượng mạng**.
 
 ### Chọn Java khi:
+
 - Hệ thống tài chính, ngân hàng, yêu cầu bảo mật cao
 - Xử lý tính toán phức tạp (Big Data, AI backend)
 - Dự án quy mô lớn, nhiều kỹ sư cùng phát triển
 
 ### Chọn JavaScript (Node.js) khi:
+
 - Xây dựng API RESTful nhẹ, Microservices
 - Ứng dụng **thời gian thực** (chat, collaborative tools)
 - Startup cần MVP ra mắt nhanh
