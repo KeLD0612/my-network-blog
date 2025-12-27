@@ -26,4 +26,5 @@ jobs:
         with:
           publish_dir: ./public
           publish_branch: gh-pages
-          personal_token: ${{ secrets.GH_PAT }}
+          # personal_token: ${{ secrets.GH_PAT }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
