@@ -4,19 +4,6 @@ date: 2025-01-08
 cover: "/images/js-network-WebSocket-realtime.jpg"
 ---
 
-Dưới đây là nội dung bài viết được hoàn thiện theo phong cách chia sẻ kinh nghiệm thực chiến, đi sâu vào sự khác biệt kỹ thuật và các thách thức khi triển khai thực tế. File được định dạng Markdown chuẩn.
-
-Markdown
-
----
-title: "WebSocket và ứng dụng Real-time: Khi HTTP là chưa đủ"
-date: 2025-01-08
-cover: "/images/js-network-WebSocket-realtime.jpg"
-categories: [JavaScript, Node.js, Networking]
-tags: [WebSocket, Realtime, Socket.io, Chat System]
-author: "Admin"
----
-
 Trong các bài viết trước, chúng ta đã bàn về mô hình Request-Response tiêu chuẩn của HTTP. Client hỏi, Server trả lời. Hết chuyện. Mô hình này tuyệt vời cho việc lướt web, đọc tin tức hay gọi API lấy dữ liệu.
 
 Nhưng thế giới web hiện đại đòi hỏi nhiều hơn thế. Người dùng muốn chat và nhận tin nhắn ngay lập tức mà không cần F5. Người chơi game online cần thấy đối thủ di chuyển ngay khi họ bấm nút. Các bảng điều khiển tài chính cần nhảy số theo từng mili-giây.
