@@ -37,15 +37,115 @@
     
 
     <div class="post-content">
-        <p>Socket là thành phần cốt lõi trong lập trình mạng Java.
-Nó đại diện cho một điểm kết nối giữa hai máy tính trong mạng.</p>
-<p><code>ServerSocket</code> được sử dụng ở phía server để lắng nghe kết nối từ client.
-Khi client kết nối thành công, server tạo ra một đối tượng <code>Socket</code>
-để giao tiếp với client đó.</p>
-<p>Thông qua Socket, dữ liệu được truyền đi dưới dạng luồng
-(InputStream và OutputStream).</p>
-<p>Việc hiểu rõ Socket giúp lập trình viên xây dựng các ứng dụng mạng
-ổn định và hiệu quả.</p>
+        <h2 id="hiểu-sâu-về-socket-trong-java-cánh-cổng-của-thế-giới-mạng">Hiểu sâu về Socket trong Java: “Cánh cổng” của thế giới mạng</h2>
+<p>Chào các bạn,</p>
+<p>Nếu bạn đang mày mò xây dựng các ứng dụng <strong>Chat</strong>, <strong>game online</strong>
+hay đơn giản là muốn hai máy tính “nói chuyện” được với nhau,
+chắc chắn bạn đã từng nghe tới khái niệm <strong>Socket</strong>.</p>
+<p>Hồi mới học Java, mình từng nghĩ Socket là thứ gì đó rất cao siêu.
+Nhưng thực tế, hãy tưởng tượng nó đơn giản như <strong>một cái giắc cắm điện thoại</strong> –
+khi cắm đúng chỗ, hai bên có thể giao tiếp trực tiếp với nhau.</p>
+<p>Hôm nay, mình muốn chia sẻ lại những gì mình đúc kết được
+về thành phần cốt lõi này trong gói <code>java.net</code>.</p>
+<hr>
+<h2 id="1-socket-và-serversocket--phân-vai-rõ-ràng">1. Socket và ServerSocket – Phân vai rõ ràng</h2>
+<p>Trong Java, bạn không thể dùng một class cho tất cả.
+Chúng ta có <strong>hai nhân vật chính</strong>, mỗi người một nhiệm vụ.</p>
+<h3 id="serversocket--ông-chủ-nhà-hiếu-khách">ServerSocket – “Ông chủ nhà hiếu khách”</h3>
+<p><code>ServerSocket</code> chỉ tồn tại ở <strong>phía Server</strong>.</p>
+<p>Nhiệm vụ của nó:</p>
+<ul>
+<li>Mở một cổng (<em>port</em>) cụ thể (ví dụ: <strong>8080</strong>)</li>
+<li>Ngồi chờ client kết nối bằng phương thức <code>accept()</code></li>
+</ul>
+<blockquote>
+<p><strong>Kinh nghiệm thực tế</strong><br>
+Khi chương trình chạy đến <code>serverSocket.accept()</code>,
+server sẽ <strong>đứng im hoàn toàn (blocking)</strong> cho đến khi có client kết nối.
+Nếu console không in thêm gì, đừng hoảng — nó đang “lắng nghe” đấy.</p>
+</blockquote>
+<hr>
+<h3 id="socket--cầu-nối-liên-lạc">Socket – Cầu nối liên lạc</h3>
+<p><code>Socket</code> được dùng cho <strong>cả hai phía</strong>:</p>
+<ul>
+<li><strong>Client</strong>: tạo <code>Socket</code> để chủ động kết nối đến Server</li>
+<li><strong>Server</strong>: khi có client kết nối,
+<code>ServerSocket</code> sẽ “đẻ” ra <strong>một đối tượng Socket riêng</strong>
+để giao tiếp với client đó</li>
+</ul>
+<blockquote>
+<p><strong>Tư duy hình ảnh</strong><br>
+<code>ServerSocket</code> giống như tổng đài viên trực ban.<br>
+Khi có cuộc gọi đến, tổng đài viên nối bạn sang
+một đường dây riêng (<strong>Socket</strong>) để nói chuyện,
+còn họ quay lại chờ cuộc gọi tiếp theo.</p>
+</blockquote>
+<hr>
+<h2 id="2-dòng-chảy-dữ-liệu-streams--câu-chuyện-cái-ống-nước">2. Dòng chảy dữ liệu (Streams) – Câu chuyện cái ống nước</h2>
+<p>Có kết nối Socket rồi, nhưng làm sao để gửi tin nhắn?</p>
+<p>Java <strong>không cho bạn ném thẳng một String</strong>
+từ máy A sang máy B.<br>
+Thay vào đó, bạn phải dùng <strong>Streams (Luồng dữ liệu)</strong>.</p>
+<h3 id="hai-luồng-cơ-bản">Hai luồng cơ bản</h3>
+<ul>
+<li><strong>InputStream</strong> – nhận dữ liệu (đọc)</li>
+<li><strong>OutputStream</strong> – gửi dữ liệu (ghi)</li>
+</ul>
+<blockquote>
+<p><strong>Bài học xương máu</strong><br>
+Khi gửi dữ liệu text, thường dùng <code>PrintWriter</code>
+hoặc <code>BufferedWriter</code>.<br>
+<strong>Luôn nhớ gọi <code>.flush()</code> sau khi ghi!</strong></p>
+<p>Nếu không, dữ liệu sẽ nằm trong buffer,
+và phía bên kia sẽ… chờ mãi mà không thấy tin nhắn đâu.</p>
+</blockquote>
+<hr>
+<h2 id="3-tại-sao-socket-lại-quan-trọng-đến-vậy">3. Tại sao Socket lại quan trọng đến vậy?</h2>
+<p>Có thể bạn sẽ hỏi:</p>
+<blockquote>
+<p>“Giờ người ta dùng HTTP, REST API hết rồi,
+học Socket làm gì cho khổ?”</p>
+</blockquote>
+<p>Thực ra:</p>
+<blockquote>
+<p><strong>HTTP cũng chạy trên nền Socket.</strong></p>
+</blockquote>
+<p>Hiểu Socket giúp bạn:</p>
+<h3 id="hiểu-bản-chất">Hiểu bản chất</h3>
+<ul>
+<li>Biết dữ liệu đi như thế nào</li>
+<li>Hiểu vì sao lại có độ trễ (<em>latency</em>)</li>
+</ul>
+<h3 id="debug-tốt-hơn">Debug tốt hơn</h3>
+<ul>
+<li>Gặp lỗi <code>Connection refused</code> → biết có thể do Server chưa mở port</li>
+<li>Gặp <code>Timeout</code> → nghĩ ngay tới firewall hoặc network</li>
+</ul>
+<h3 id="làm-chủ-real-time">Làm chủ Real-time</h3>
+<ul>
+<li>Ứng dụng chat</li>
+<li>Game online</li>
+<li>Điều khiển thiết bị IoT</li>
+<li>Kết nối liên tục, tốc độ cao</li>
+</ul>
+<p>Trong những trường hợp này,
+Socket (TCP/UDP) <strong>vẫn tối ưu hơn HTTP rất nhiều</strong>.</p>
+<hr>
+<h2 id="tóm-lại">Tóm lại</h2>
+<p>Socket chính là <strong>viên gạch đầu tiên</strong>
+để xây dựng mọi ứng dụng mạng.</p>
+<p>Chỉ cần nắm vững:</p>
+<ul>
+<li><code>Socket</code></li>
+<li><code>ServerSocket</code></li>
+<li><code>InputStream</code> / <code>OutputStream</code></li>
+</ul>
+<p>là bạn đã nắm được <strong>khoảng 50% sức mạnh</strong>
+của lập trình mạng trong Java.</p>
+<p>Ở bài sau, mình sẽ chia sẻ về<br>
+<strong>xử lý đa luồng (Multi-threading)</strong> –<br>
+bí kíp để Server có thể phục vụ <strong>hàng nghìn Client cùng lúc</strong>
+mà không bị “đơ”.</p>
     </div>
 </article>
 

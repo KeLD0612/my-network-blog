@@ -20,56 +20,56 @@
       <link>http://localhost:1313/my-network-blog/blog/js-network-websocket-realtime/</link>
       <pubDate>Wed, 08 Jan 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/my-network-blog/blog/js-network-websocket-realtime/</guid>
-      <description>&lt;p&gt;WebSocket là giao thức cho phép giao tiếp hai chiều&#xA;giữa client và server trong thời gian thực.&lt;/p&gt;&#xA;&lt;p&gt;Khác với HTTP truyền thống,&#xA;WebSocket giữ kết nối liên tục và truyền dữ liệu ngay khi có thay đổi.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Dưới đây là nội dung bài viết được hoàn thiện theo phong cách chia sẻ kinh nghiệm thực chiến, đi sâu vào sự khác biệt kỹ thuật và các thách thức khi triển khai thực tế. File được định dạng Markdown chuẩn.&lt;/p&gt;&#xA;&lt;p&gt;Markdown&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;author-admin&#34;&gt;title: &amp;ldquo;WebSocket và ứng dụng Real-time: Khi HTTP là chưa đủ&amp;rdquo;&#xA;date: 2025-01-08&#xA;cover: &amp;ldquo;/images/js-network-WebSocket-realtime.jpg&amp;rdquo;&#xA;categories: [JavaScript, Node.js, Networking]&#xA;tags: [WebSocket, Realtime, Socket.io, Chat System]&#xA;author: &amp;ldquo;Admin&amp;rdquo;&lt;/h2&gt;&#xA;&lt;p&gt;Trong các bài viết trước, chúng ta đã bàn về mô hình Request-Response tiêu chuẩn của HTTP. Client hỏi, Server trả lời. Hết chuyện. Mô hình này tuyệt vời cho việc lướt web, đọc tin tức hay gọi API lấy dữ liệu.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lập trình mạng nâng cao với Java</title>
       <link>http://localhost:1313/my-network-blog/blog/java-network-network_programming-with-java/</link>
       <pubDate>Tue, 07 Jan 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/my-network-blog/blog/java-network-network_programming-with-java/</guid>
-      <description>&lt;p&gt;Ngoài Socket cơ bản, Java còn hỗ trợ lập trình mạng nâng cao&#xA;như RMI (Remote Method Invocation) và NIO (Non-blocking I/O).&lt;/p&gt;&#xA;&lt;p&gt;Java NIO giúp cải thiện hiệu năng bằng cách xử lý dữ liệu không đồng bộ,&#xA;phù hợp cho server có nhiều kết nối.&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;lập-trình-mạng-nâng-cao-với-java-khi-socket-cơ-bản-là-chưa-đủ&#34;&gt;Lập trình mạng nâng cao với Java: Khi Socket cơ bản là chưa đủ&lt;/h2&gt;&#xA;&lt;p&gt;Nếu bạn đã từng &amp;ldquo;vọc vạch&amp;rdquo; lập trình mạng với Java, chắc hẳn bạn đã quá quen thuộc với cặp bài trùng &lt;strong&gt;Socket&lt;/strong&gt; và &lt;strong&gt;ServerSocket&lt;/strong&gt;. Chúng rất tuyệt vời để bắt đầu: dễ hiểu, dễ viết và chạy tốt với các ứng dụng chat đơn giản hay demo trường học.&lt;/p&gt;&#xA;&lt;p&gt;Tuy nhiên, khi mình bắt đầu làm việc với các hệ thống yêu cầu tải cao hơn, hoặc các kiến trúc phân tán phức tạp, mình nhận ra &lt;code&gt;java.net&lt;/code&gt; thuần túy bắt đầu bộc lộ những điểm yếu chết người. Đó là lúc mình phải tìm đến những &amp;ldquo;vũ khí hạng nặng&amp;rdquo; hơn: &lt;strong&gt;Java NIO&lt;/strong&gt; và &lt;strong&gt;Java RMI&lt;/strong&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>HTTP và REST API với JavaScript</title>
       <link>http://localhost:1313/my-network-blog/blog/javascript-3-http-rest_api-with-javascript/</link>
       <pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/my-network-blog/blog/javascript-3-http-rest_api-with-javascript/</guid>
-      <description>&lt;p&gt;HTTP là giao thức nền tảng của web.&#xA;Trong JavaScript, HTTP thường được sử dụng để xây dựng REST API.&lt;/p&gt;&#xA;&lt;p&gt;REST API cho phép các hệ thống khác nhau giao tiếp&#xA;thông qua các phương thức như GET, POST, PUT và DELETE.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Trong hành trình trở thành một lập trình viên Fullstack hoặc Backend, việc thấu hiểu giao thức HTTP và kiến trúc REST là bước ngoặt quan trọng nhất. Nếu như Socket là nền tảng cho các kết nối thời gian thực và liên tục, thì HTTP chính là &amp;ldquo;ngôn ngữ&amp;rdquo; tiêu chuẩn để các hệ thống trao đổi dữ liệu rời rạc trên Internet.&lt;/p&gt;&#xA;&lt;p&gt;Hôm nay, tôi sẽ chia sẻ cách tôi sử dụng JavaScript (cụ thể là Node.js) để làm chủ giao thức này và xây dựng các RESTful API chuẩn mực.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Node.js và mô hình bất đồng bộ</title>
       <link>http://localhost:1313/my-network-blog/blog/javascript-2-nodejs-asynchronousmodel/</link>
       <pubDate>Sun, 05 Jan 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/my-network-blog/blog/javascript-2-nodejs-asynchronousmodel/</guid>
-      <description>&lt;p&gt;Node.js là môi trường chạy JavaScript phía server,&#xA;được xây dựng trên nền tảng V8 của Google.&lt;/p&gt;&#xA;&lt;p&gt;Điểm mạnh của Node.js là mô hình bất đồng bộ (asynchronous),&#xA;cho phép xử lý nhiều kết nối cùng lúc mà không bị chặn luồng.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Khi mới chuyển từ các ngôn ngữ server-side truyền thống như PHP hay Java sang Node.js, điều khiến tôi bối rối nhất không phải là cú pháp JavaScript (vì nó quá quen thuộc ở frontend), mà chính là tư duy &amp;ldquo;Bất đồng bộ&amp;rdquo; (Asynchronous).&lt;/p&gt;&#xA;&lt;p&gt;Node.js không đơn thuần là đem JavaScript lên server chạy. Nó là một môi trường runtime được xây dựng trên nền tảng V8 engine cực mạnh của Google, nhưng &amp;ldquo;vũ khí bí mật&amp;rdquo; giúp nó xử lý hàng nghìn kết nối đồng thời lại nằm ở kiến trúc đơn luồng (Single-threaded) kết hợp với Event Loop.&lt;/p&gt;</description>
     </item>
     <item>
       <title>JavaScript trong lập trình Web và Network</title>
       <link>http://localhost:1313/my-network-blog/blog/javascript-1-introduce-javascrip-in-web-and-netword/</link>
       <pubDate>Sat, 04 Jan 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/my-network-blog/blog/javascript-1-introduce-javascrip-in-web-and-netword/</guid>
-      <description>&lt;p&gt;JavaScript là ngôn ngữ không thể thiếu trong lập trình web hiện đại.&#xA;Ban đầu chỉ dùng cho trình duyệt, JavaScript nay đã mở rộng sang&#xA;lập trình mạng với Node.js.&lt;/p&gt;&#xA;&lt;p&gt;Với Node.js, JavaScript có thể tạo server HTTP,&#xA;xây dựng REST API và xử lý dữ liệu bất đồng bộ hiệu quả.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Nếu quay ngược thời gian khoảng 15 năm trước, khi nhắc đến JavaScript, tôi và nhiều lập trình viên khác chỉ nghĩ đến những đoạn script ngắn chạy trên trình duyệt để kiểm tra form đăng ký hay tạo hiệu ứng menu đơn giản. Lúc đó, ranh giới rất rõ ràng: JavaScript cho Frontend, còn Backend và Network là sân chơi của Java, PHP hay C++.&lt;/p&gt;&#xA;&lt;p&gt;Tuy nhiên, sự ra đời của Node.js đã thay đổi hoàn toàn cục diện đó. JavaScript không còn bị &amp;ldquo;nhốt&amp;rdquo; trong trình duyệt nữa mà đã vươn mình trở thành một ngôn ngữ mạnh mẽ cho lập trình mạng và hệ thống phía server.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Socket và ServerSocket trong Java</title>
       <link>http://localhost:1313/my-network-blog/blog/java-3-socket-serversocket-in-java/</link>
       <pubDate>Fri, 03 Jan 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/my-network-blog/blog/java-3-socket-serversocket-in-java/</guid>
-      <description>&lt;p&gt;Socket là thành phần cốt lõi trong lập trình mạng Java.&#xA;Nó đại diện cho một điểm kết nối giữa hai máy tính trong mạng.&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;ServerSocket&lt;/code&gt; được sử dụng ở phía server để lắng nghe kết nối từ client.&#xA;Khi client kết nối thành công, server tạo ra một đối tượng &lt;code&gt;Socket&lt;/code&gt;&#xA;để giao tiếp với client đó.&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;hiểu-sâu-về-socket-trong-java-cánh-cổng-của-thế-giới-mạng&#34;&gt;Hiểu sâu về Socket trong Java: “Cánh cổng” của thế giới mạng&lt;/h2&gt;&#xA;&lt;p&gt;Chào các bạn,&lt;/p&gt;&#xA;&lt;p&gt;Nếu bạn đang mày mò xây dựng các ứng dụng &lt;strong&gt;Chat&lt;/strong&gt;, &lt;strong&gt;game online&lt;/strong&gt;&#xA;hay đơn giản là muốn hai máy tính “nói chuyện” được với nhau,&#xA;chắc chắn bạn đã từng nghe tới khái niệm &lt;strong&gt;Socket&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Hồi mới học Java, mình từng nghĩ Socket là thứ gì đó rất cao siêu.&#xA;Nhưng thực tế, hãy tưởng tượng nó đơn giản như &lt;strong&gt;một cái giắc cắm điện thoại&lt;/strong&gt; –&#xA;khi cắm đúng chỗ, hai bên có thể giao tiếp trực tiếp với nhau.&lt;/p&gt;&#xA;&lt;p&gt;Hôm nay, mình muốn chia sẻ lại những gì mình đúc kết được&#xA;về thành phần cốt lõi này trong gói &lt;code&gt;java.net&lt;/code&gt;.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Mô hình Client – Server trong Java</title>
+      <title>Kiến trúc Client – Server trong Java: Cơ chế và hoạt động chi tiết</title>
       <link>http://localhost:1313/my-network-blog/blog/java-2-client-server-in-java/</link>
       <pubDate>Thu, 02 Jan 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/my-network-blog/blog/java-2-client-server-in-java/</guid>
-      <description>&lt;p&gt;Mô hình Client – Server là kiến trúc phổ biến nhất trong lập trình mạng.&#xA;Trong mô hình này, client gửi yêu cầu và server xử lý, sau đó trả về kết quả.&lt;/p&gt;&#xA;&lt;p&gt;Trong Java, server thường được xây dựng bằng lớp &lt;code&gt;ServerSocket&lt;/code&gt;,&#xA;trong khi client sử dụng lớp &lt;code&gt;Socket&lt;/code&gt; để kết nối.&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;kiến-trúc-client--server-trong-java&#34;&gt;Kiến trúc Client – Server trong Java&lt;/h2&gt;&#xA;&lt;p&gt;Mô hình &lt;strong&gt;Client – Server (Khách – Chủ)&lt;/strong&gt; là xương sống của hầu hết&#xA;các ứng dụng mạng hiện đại.&lt;br&gt;&#xA;Trong Java, mô hình này được hiện thực hóa mạnh mẽ thông qua gói&#xA;&lt;strong&gt;&lt;code&gt;java.net&lt;/code&gt;&lt;/strong&gt;, chủ yếu sử dụng giao thức &lt;strong&gt;TCP&lt;/strong&gt;&#xA;để đảm bảo độ tin cậy của dữ liệu truyền tải.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Giới thiệu lập trình mạng với Java</title>
       <link>http://localhost:1313/my-network-blog/blog/java-1-introducing-networking-with-java/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/my-network-blog/blog/java-1-introducing-networking-with-java/</guid>
-      <description>&lt;p&gt;Lập trình mạng là nền tảng của các hệ thống phân tán, ứng dụng client-server&#xA;và các dịch vụ Internet hiện đại. Java là một trong những ngôn ngữ được sử dụng&#xA;rộng rãi trong lĩnh vực này nhờ tính ổn định, bảo mật và khả năng chạy đa nền tảng.&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;tổng-quan-lập-trình-mạng-với-java-nền-tảng-và-ứng-dụng&#34;&gt;Tổng quan lập trình mạng với Java: Nền tảng và ứng dụng&lt;/h2&gt;&#xA;&lt;p&gt;Lập trình mạng (Network Programming) là xương sống của các hệ thống phân tán,&#xA;ứng dụng Client–Server và hạ tầng Internet hiện đại.&lt;br&gt;&#xA;Trong đó, &lt;strong&gt;Java&lt;/strong&gt; nổi lên như một lựa chọn hàng đầu nhờ triết lý&#xA;&lt;strong&gt;“Write Once, Run Anywhere”&lt;/strong&gt;, tính ổn định cao và khả năng bảo mật mạnh mẽ.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

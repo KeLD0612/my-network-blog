@@ -1,7 +1,7 @@
 ---
 title: "Kiến trúc Client – Server trong Java: Cơ chế và hoạt động chi tiết"
 date: 2025-01-02
-cover: "/images/cover-java-client-server.jpg"
+cover: "/images/client-server-in-java.jpg"
 ---
 
 ## Kiến trúc Client – Server trong Java
