@@ -1,66 +1,43 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog Lập Trình Mạng | KeLD0612</title><link>https://KeLD0612.github.io/my-network-blog/</link><description>Recent content on Blog Lập Trình Mạng | KeLD0612</description><generator>Hugo</generator><language>vi</language><lastBuildDate>Thu, 09 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://KeLD0612.github.io/my-network-blog/index.xml" rel="self" type="application/rss+xml"/><item><title>So sánh Java và JavaScript trong lập trình mạng</title><link>https://KeLD0612.github.io/my-network-blog/blog/compare-java-js-java-javascript-in-networking/</link><pubDate>Thu, 09 Jan 2025 00:00:00 +0000</pubDate><guid>https://KeLD0612.github.io/my-network-blog/blog/compare-java-js-java-javascript-in-networking/</guid><description>&lt;p&gt;Java và JavaScript đều được sử dụng rộng rãi trong lập trình mạng,
-nhưng mỗi ngôn ngữ có thế mạnh riêng.&lt;/p&gt;
-&lt;p&gt;Java mạnh về hệ thống lớn, đa luồng và độ ổn định cao,
-thường dùng trong backend doanh nghiệp.&lt;/p&gt;
-&lt;p&gt;JavaScript nổi bật với tốc độ phát triển nhanh,
-bất đồng bộ và khả năng xây dựng API, ứng dụng realtime.&lt;/p&gt;
-&lt;p&gt;Việc lựa chọn ngôn ngữ phụ thuộc vào mục tiêu dự án
-và yêu cầu hệ thống.&lt;/p&gt;</description></item><item><title>WebSocket và ứng dụng realtime</title><link>https://KeLD0612.github.io/my-network-blog/blog/js-network-websocket-realtime/</link><pubDate>Wed, 08 Jan 2025 00:00:00 +0000</pubDate><guid>https://KeLD0612.github.io/my-network-blog/blog/js-network-websocket-realtime/</guid><description>&lt;p&gt;WebSocket là giao thức cho phép giao tiếp hai chiều
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog Lập Trình Mạng | KeLD0612</title><link>https://KeLD0612.github.io/my-network-blog/</link><description>Recent content on Blog Lập Trình Mạng | KeLD0612</description><generator>Hugo</generator><language>vi</language><lastBuildDate>Thu, 09 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://KeLD0612.github.io/my-network-blog/index.xml" rel="self" type="application/rss+xml"/><item><title>So sánh Java và JavaScript trong lập trình mạng</title><link>https://KeLD0612.github.io/my-network-blog/blog/compare-java-js-java-javascript-in-networking/</link><pubDate>Thu, 09 Jan 2025 00:00:00 +0000</pubDate><guid>https://KeLD0612.github.io/my-network-blog/blog/compare-java-js-java-javascript-in-networking/</guid><description>&lt;h2 id="so-sánh-chuyên-sâu-java-và-javascript-trong-lập-trình-mạng"&gt;So sánh chuyên sâu: Java và JavaScript trong Lập trình Mạng&lt;/h2&gt;
+&lt;p&gt;Mặc dù cả Java và JavaScript đều là trụ cột của phát triển phần mềm hiện đại,
+nhưng cách tiếp cận bài toán &lt;strong&gt;lập trình mạng (networking)&lt;/strong&gt; của chúng
+hoàn toàn khác nhau, phù hợp với những loại hệ thống khác nhau.&lt;/p&gt;</description></item><item><title>WebSocket và ứng dụng realtime</title><link>https://KeLD0612.github.io/my-network-blog/blog/js-network-websocket-realtime/</link><pubDate>Wed, 08 Jan 2025 00:00:00 +0000</pubDate><guid>https://KeLD0612.github.io/my-network-blog/blog/js-network-websocket-realtime/</guid><description>&lt;p&gt;WebSocket là giao thức cho phép giao tiếp hai chiều
 giữa client và server trong thời gian thực.&lt;/p&gt;
 &lt;p&gt;Khác với HTTP truyền thống,
-WebSocket giữ kết nối liên tục và truyền dữ liệu ngay khi có thay đổi.&lt;/p&gt;
-&lt;p&gt;JavaScript kết hợp với WebSocket thường được dùng
-trong chat application, game online và hệ thống thông báo realtime.&lt;/p&gt;
-&lt;p&gt;Đây là một kỹ thuật quan trọng trong lập trình mạng hiện đại.&lt;/p&gt;</description></item><item><title>Lập trình mạng nâng cao với Java</title><link>https://KeLD0612.github.io/my-network-blog/blog/java-network-network_programming-with-java/</link><pubDate>Tue, 07 Jan 2025 00:00:00 +0000</pubDate><guid>https://KeLD0612.github.io/my-network-blog/blog/java-network-network_programming-with-java/</guid><description>&lt;p&gt;Ngoài Socket cơ bản, Java còn hỗ trợ lập trình mạng nâng cao
+WebSocket giữ kết nối liên tục và truyền dữ liệu ngay khi có thay đổi.&lt;/p&gt;</description></item><item><title>Lập trình mạng nâng cao với Java</title><link>https://KeLD0612.github.io/my-network-blog/blog/java-network-network_programming-with-java/</link><pubDate>Tue, 07 Jan 2025 00:00:00 +0000</pubDate><guid>https://KeLD0612.github.io/my-network-blog/blog/java-network-network_programming-with-java/</guid><description>&lt;p&gt;Ngoài Socket cơ bản, Java còn hỗ trợ lập trình mạng nâng cao
 như RMI (Remote Method Invocation) và NIO (Non-blocking I/O).&lt;/p&gt;
 &lt;p&gt;Java NIO giúp cải thiện hiệu năng bằng cách xử lý dữ liệu không đồng bộ,
-phù hợp cho server có nhiều kết nối.&lt;/p&gt;
-&lt;p&gt;RMI cho phép gọi phương thức từ xa,
-giúp việc xây dựng hệ thống phân tán trở nên đơn giản hơn.&lt;/p&gt;
-&lt;p&gt;Những kỹ thuật này thường được sử dụng trong các hệ thống lớn
-và doanh nghiệp.&lt;/p&gt;</description></item><item><title>HTTP và REST API với JavaScript</title><link>https://KeLD0612.github.io/my-network-blog/blog/javascript-3-http-rest_api-with-javascript/</link><pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate><guid>https://KeLD0612.github.io/my-network-blog/blog/javascript-3-http-rest_api-with-javascript/</guid><description>&lt;p&gt;HTTP là giao thức nền tảng của web.
+phù hợp cho server có nhiều kết nối.&lt;/p&gt;</description></item><item><title>HTTP và REST API với JavaScript</title><link>https://KeLD0612.github.io/my-network-blog/blog/javascript-3-http-rest_api-with-javascript/</link><pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate><guid>https://KeLD0612.github.io/my-network-blog/blog/javascript-3-http-rest_api-with-javascript/</guid><description>&lt;p&gt;HTTP là giao thức nền tảng của web.
 Trong JavaScript, HTTP thường được sử dụng để xây dựng REST API.&lt;/p&gt;
 &lt;p&gt;REST API cho phép các hệ thống khác nhau giao tiếp
-thông qua các phương thức như GET, POST, PUT và DELETE.&lt;/p&gt;
-&lt;p&gt;Node.js kết hợp với các framework như Express.js
-giúp việc xây dựng API trở nên nhanh chóng và rõ ràng.&lt;/p&gt;
-&lt;p&gt;REST API đóng vai trò quan trọng trong các hệ thống client-server hiện đại.&lt;/p&gt;</description></item><item><title>Node.js và mô hình bất đồng bộ</title><link>https://KeLD0612.github.io/my-network-blog/blog/javascript-2-nodejs-asynchronousmodel/</link><pubDate>Sun, 05 Jan 2025 00:00:00 +0000</pubDate><guid>https://KeLD0612.github.io/my-network-blog/blog/javascript-2-nodejs-asynchronousmodel/</guid><description>&lt;p&gt;Node.js là môi trường chạy JavaScript phía server,
+thông qua các phương thức như GET, POST, PUT và DELETE.&lt;/p&gt;</description></item><item><title>Node.js và mô hình bất đồng bộ</title><link>https://KeLD0612.github.io/my-network-blog/blog/javascript-2-nodejs-asynchronousmodel/</link><pubDate>Sun, 05 Jan 2025 00:00:00 +0000</pubDate><guid>https://KeLD0612.github.io/my-network-blog/blog/javascript-2-nodejs-asynchronousmodel/</guid><description>&lt;p&gt;Node.js là môi trường chạy JavaScript phía server,
 được xây dựng trên nền tảng V8 của Google.&lt;/p&gt;
 &lt;p&gt;Điểm mạnh của Node.js là mô hình bất đồng bộ (asynchronous),
-cho phép xử lý nhiều kết nối cùng lúc mà không bị chặn luồng.&lt;/p&gt;
-&lt;p&gt;Thay vì tạo nhiều thread như Java truyền thống,
-Node.js sử dụng event loop để xử lý yêu cầu.&lt;/p&gt;
-&lt;p&gt;Mô hình này rất phù hợp cho các ứng dụng mạng có lượng truy cập lớn
-như API server hoặc ứng dụng realtime.&lt;/p&gt;</description></item><item><title>JavaScript trong lập trình Web và Network</title><link>https://KeLD0612.github.io/my-network-blog/blog/javascript-1-introduce-javascrip-in-web-and-netword/</link><pubDate>Sat, 04 Jan 2025 00:00:00 +0000</pubDate><guid>https://KeLD0612.github.io/my-network-blog/blog/javascript-1-introduce-javascrip-in-web-and-netword/</guid><description>&lt;p&gt;JavaScript là ngôn ngữ không thể thiếu trong lập trình web hiện đại.
+cho phép xử lý nhiều kết nối cùng lúc mà không bị chặn luồng.&lt;/p&gt;</description></item><item><title>JavaScript trong lập trình Web và Network</title><link>https://KeLD0612.github.io/my-network-blog/blog/javascript-1-introduce-javascrip-in-web-and-netword/</link><pubDate>Sat, 04 Jan 2025 00:00:00 +0000</pubDate><guid>https://KeLD0612.github.io/my-network-blog/blog/javascript-1-introduce-javascrip-in-web-and-netword/</guid><description>&lt;p&gt;JavaScript là ngôn ngữ không thể thiếu trong lập trình web hiện đại.
 Ban đầu chỉ dùng cho trình duyệt, JavaScript nay đã mở rộng sang
 lập trình mạng với Node.js.&lt;/p&gt;
 &lt;p&gt;Với Node.js, JavaScript có thể tạo server HTTP,
-xây dựng REST API và xử lý dữ liệu bất đồng bộ hiệu quả.&lt;/p&gt;
-&lt;p&gt;JavaScript phù hợp cho các ứng dụng yêu cầu phản hồi nhanh
-và xử lý nhiều kết nối đồng thời.&lt;/p&gt;</description></item><item><title>Socket và ServerSocket trong Java</title><link>https://KeLD0612.github.io/my-network-blog/blog/java-3-socket-serversocket-in-java/</link><pubDate>Fri, 03 Jan 2025 00:00:00 +0000</pubDate><guid>https://KeLD0612.github.io/my-network-blog/blog/java-3-socket-serversocket-in-java/</guid><description>&lt;p&gt;Socket là thành phần cốt lõi trong lập trình mạng Java.
+xây dựng REST API và xử lý dữ liệu bất đồng bộ hiệu quả.&lt;/p&gt;</description></item><item><title>Socket và ServerSocket trong Java</title><link>https://KeLD0612.github.io/my-network-blog/blog/java-3-socket-serversocket-in-java/</link><pubDate>Fri, 03 Jan 2025 00:00:00 +0000</pubDate><guid>https://KeLD0612.github.io/my-network-blog/blog/java-3-socket-serversocket-in-java/</guid><description>&lt;p&gt;Socket là thành phần cốt lõi trong lập trình mạng Java.
 Nó đại diện cho một điểm kết nối giữa hai máy tính trong mạng.&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;ServerSocket&lt;/code&gt; được sử dụng ở phía server để lắng nghe kết nối từ client.
 Khi client kết nối thành công, server tạo ra một đối tượng &lt;code&gt;Socket&lt;/code&gt;
-để giao tiếp với client đó.&lt;/p&gt;
-&lt;p&gt;Thông qua Socket, dữ liệu được truyền đi dưới dạng luồng
-(InputStream và OutputStream).&lt;/p&gt;</description></item><item><title>Mô hình Client – Server trong Java</title><link>https://KeLD0612.github.io/my-network-blog/blog/java-2-client-server-in-java/</link><pubDate>Thu, 02 Jan 2025 00:00:00 +0000</pubDate><guid>https://KeLD0612.github.io/my-network-blog/blog/java-2-client-server-in-java/</guid><description>&lt;p&gt;Mô hình Client – Server là kiến trúc phổ biến nhất trong lập trình mạng.
-Trong mô hình này, client gửi yêu cầu và server xử lý, sau đó trả về kết quả.&lt;/p&gt;
-&lt;p&gt;Trong Java, server thường được xây dựng bằng lớp &lt;code&gt;ServerSocket&lt;/code&gt;,
-trong khi client sử dụng lớp &lt;code&gt;Socket&lt;/code&gt; để kết nối.&lt;/p&gt;
-&lt;p&gt;Server sẽ mở một cổng (port) và chờ client kết nối.
-Khi có kết nối, server tạo một luồng riêng để xử lý,
-giúp phục vụ nhiều client cùng lúc.&lt;/p&gt;</description></item><item><title>Giới thiệu lập trình mạng với Java</title><link>https://KeLD0612.github.io/my-network-blog/blog/java-1-introducing-networking-with-java/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><guid>https://KeLD0612.github.io/my-network-blog/blog/java-1-introducing-networking-with-java/</guid><description>&lt;p&gt;Lập trình mạng là nền tảng của các hệ thống phân tán, ứng dụng client-server
-và các dịch vụ Internet hiện đại. Java là một trong những ngôn ngữ được sử dụng
-rộng rãi trong lĩnh vực này nhờ tính ổn định, bảo mật và khả năng chạy đa nền tảng.&lt;/p&gt;
-&lt;p&gt;Java cung cấp thư viện &lt;code&gt;java.net&lt;/code&gt; cho phép lập trình viên dễ dàng làm việc với
-Socket, ServerSocket, URL và các giao thức mạng phổ biến.&lt;/p&gt;</description></item><item><title>Profile Cá Nhân</title><link>https://KeLD0612.github.io/my-network-blog/profile/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://KeLD0612.github.io/my-network-blog/profile/</guid><description>&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;h2 id="d--network-developer"&gt;D – Network Developer&lt;/h2&gt;
-&lt;p&gt;Sinh viên / người học lập trình,
-tập trung vào Java Backend, JavaScript và lập trình mạng.&lt;/p&gt;
+để giao tiếp với client đó.&lt;/p&gt;</description></item><item><title>Kiến trúc Client – Server trong Java: Cơ chế và hoạt động chi tiết</title><link>https://KeLD0612.github.io/my-network-blog/blog/java-2-client-server-in-java/</link><pubDate>Thu, 02 Jan 2025 00:00:00 +0000</pubDate><guid>https://KeLD0612.github.io/my-network-blog/blog/java-2-client-server-in-java/</guid><description>&lt;h2 id="kiến-trúc-client--server-trong-java"&gt;Kiến trúc Client – Server trong Java&lt;/h2&gt;
+&lt;p&gt;Mô hình &lt;strong&gt;Client – Server (Khách – Chủ)&lt;/strong&gt; là xương sống của hầu hết
+các ứng dụng mạng hiện đại.&lt;br&gt;
+Trong Java, mô hình này được hiện thực hóa mạnh mẽ thông qua gói
+&lt;strong&gt;&lt;code&gt;java.net&lt;/code&gt;&lt;/strong&gt;, chủ yếu sử dụng giao thức &lt;strong&gt;TCP&lt;/strong&gt;
+để đảm bảo độ tin cậy của dữ liệu truyền tải.&lt;/p&gt;</description></item><item><title>Giới thiệu lập trình mạng với Java</title><link>https://KeLD0612.github.io/my-network-blog/blog/java-1-introducing-networking-with-java/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><guid>https://KeLD0612.github.io/my-network-blog/blog/java-1-introducing-networking-with-java/</guid><description>&lt;h2 id="tổng-quan-lập-trình-mạng-với-java-nền-tảng-và-ứng-dụng"&gt;Tổng quan lập trình mạng với Java: Nền tảng và ứng dụng&lt;/h2&gt;
+&lt;p&gt;Lập trình mạng (Network Programming) là xương sống của các hệ thống phân tán,
+ứng dụng Client–Server và hạ tầng Internet hiện đại.&lt;br&gt;
+Trong đó, &lt;strong&gt;Java&lt;/strong&gt; nổi lên như một lựa chọn hàng đầu nhờ triết lý
+&lt;strong&gt;“Write Once, Run Anywhere”&lt;/strong&gt;, tính ổn định cao và khả năng bảo mật mạnh mẽ.&lt;/p&gt;</description></item><item><title>Profile</title><link>https://KeLD0612.github.io/my-network-blog/profile/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://KeLD0612.github.io/my-network-blog/profile/</guid><description>&lt;h2 id="d--network--backend-developer"&gt;D – Network &amp;amp; Backend Developer&lt;/h2&gt;
+&lt;p&gt;Sinh viên định hướng Backend và lập trình mạng.
+Có kinh nghiệm học tập và thực hành:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Java Socket, Client–Server&lt;/li&gt;
-&lt;li&gt;REST API, WebSocket&lt;/li&gt;
-&lt;li&gt;GitHub &amp;amp; SSG&lt;/li&gt;
+&lt;li&gt;JavaScript, Node.js, REST API&lt;/li&gt;
+&lt;li&gt;WebSocket, HTTP&lt;/li&gt;
+&lt;li&gt;GitHub, Hugo SSG&lt;/li&gt;
 &lt;/ul&gt;
-&lt;!-- raw HTML omitted --&gt;</description></item></channel></rss>
+&lt;p&gt;Mục tiêu: xây dựng các hệ thống mạng ổn định,
+hiệu quả và dễ mở rộng.&lt;/p&gt;</description></item></channel></rss>
