@@ -5,7 +5,7 @@ cover: "/images/HTTP-REST_API-with-JavaScript.jpg"
 ---
 
 Trong hành trình trở thành một lập trình viên Fullstack hoặc Backend, việc thấu hiểu giao thức HTTP và kiến trúc REST là bước ngoặt quan trọng nhất. Nếu như Socket là nền tảng cho các kết nối thời gian thực và liên tục, thì HTTP chính là "ngôn ngữ" tiêu chuẩn để các hệ thống trao đổi dữ liệu rời rạc trên Internet.
-
+<!--more-->
 Hôm nay, tôi sẽ chia sẻ cách tôi sử dụng JavaScript (cụ thể là Node.js) để làm chủ giao thức này và xây dựng các RESTful API chuẩn mực.
 
 ## HTTP: Không chỉ là duyệt web

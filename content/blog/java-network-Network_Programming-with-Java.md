@@ -7,7 +7,7 @@ cover: "/images/Network_Programming-with-Java.jpg"
 ## Lập trình mạng nâng cao với Java: Khi Socket cơ bản là chưa đủ
 
 Nếu bạn đã từng "vọc vạch" lập trình mạng với Java, chắc hẳn bạn đã quá quen thuộc với cặp bài trùng **Socket** và **ServerSocket**. Chúng rất tuyệt vời để bắt đầu: dễ hiểu, dễ viết và chạy tốt với các ứng dụng chat đơn giản hay demo trường học.
-
+<!--more-->
 Tuy nhiên, khi mình bắt đầu làm việc với các hệ thống yêu cầu tải cao hơn, hoặc các kiến trúc phân tán phức tạp, mình nhận ra `java.net` thuần túy bắt đầu bộc lộ những điểm yếu chết người. Đó là lúc mình phải tìm đến những "vũ khí hạng nặng" hơn: **Java NIO** và **Java RMI**.
 
 Hôm nay, mình sẽ chia sẻ lại những trải nghiệm khi chuyển đổi từ tư duy lập trình mạng cơ bản sang nâng cao.

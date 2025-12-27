@@ -7,7 +7,7 @@ cover: "/images/Nodejs-asynchronousModel.jpg"
 Khi mới chuyển từ các ngôn ngữ server-side truyền thống như PHP hay Java sang Node.js, điều khiến tôi bối rối nhất không phải là cú pháp JavaScript (vì nó quá quen thuộc ở frontend), mà chính là tư duy "Bất đồng bộ" (Asynchronous).
 
 Node.js không đơn thuần là đem JavaScript lên server chạy. Nó là một môi trường runtime được xây dựng trên nền tảng V8 engine cực mạnh của Google, nhưng "vũ khí bí mật" giúp nó xử lý hàng nghìn kết nối đồng thời lại nằm ở kiến trúc đơn luồng (Single-threaded) kết hợp với Event Loop.
-
+<!--more-->
 Hôm nay, hãy cùng tôi mổ xẻ xem mô hình này hoạt động như thế nào và tại sao nó lại thay đổi cách chúng ta xây dựng các ứng dụng mạng.
 
 ## Câu chuyện về "Người phục vụ" (The Waiter Analogy)

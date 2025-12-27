@@ -5,7 +5,7 @@ cover: "/images/Introduce-Javascrip-in-Web-and-Netword.jpg"
 ---
 
 Nếu quay ngược thời gian khoảng 15 năm trước, khi nhắc đến JavaScript, tôi và nhiều lập trình viên khác chỉ nghĩ đến những đoạn script ngắn chạy trên trình duyệt để kiểm tra form đăng ký hay tạo hiệu ứng menu đơn giản. Lúc đó, ranh giới rất rõ ràng: JavaScript cho Frontend, còn Backend và Network là sân chơi của Java, PHP hay C++.
-
+<!--more-->
 Tuy nhiên, sự ra đời của Node.js đã thay đổi hoàn toàn cục diện đó. JavaScript không còn bị "nhốt" trong trình duyệt nữa mà đã vươn mình trở thành một ngôn ngữ mạnh mẽ cho lập trình mạng và hệ thống phía server.
 
 Hôm nay, tôi muốn chia sẻ góc nhìn của mình về sự chuyển dịch này và tại sao JavaScript lại trở thành công cụ đắc lực cho lập trình mạng hiện đại.

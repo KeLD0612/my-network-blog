@@ -10,8 +10,8 @@ Chào các bạn,
 
 Nếu bạn đang mày mò xây dựng các ứng dụng **Chat**, **game online**
 hay đơn giản là muốn hai máy tính “nói chuyện” được với nhau,
+<!--more-->
 chắc chắn bạn đã từng nghe tới khái niệm **Socket**.
-
 Hồi mới học Java, mình từng nghĩ Socket là thứ gì đó rất cao siêu.
 Nhưng thực tế, hãy tưởng tượng nó đơn giản như **một cái giắc cắm điện thoại** –
 khi cắm đúng chỗ, hai bên có thể giao tiếp trực tiếp với nhau.
