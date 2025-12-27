@@ -1,16 +1,27 @@
 {{ define "main" }}
-<h2>Chào mừng đến với Blog Lập Trình Mạng</h2>
-<p>
-Blog chia sẻ kiến thức học tập và thực hành về <strong>Java & JavaScript</strong>
-trong lĩnh vực lập trình mạng, backend và web.
-</p>
+<div class="hero">
+    <div>
+        <h2>Blog Lập Trình Mạng</h2>
+        <p>
+            Chia sẻ kiến thức học tập và thực hành về
+            <strong>Java, JavaScript</strong> và các mô hình lập trình mạng hiện đại.
+        </p>
+    </div>
+    <img src="/images/avatar.jpg" alt="Avatar">
+</div>
 
 <h3>Bài viết mới</h3>
-<ul>
-{{ range first 5 (where .Site.RegularPages "Section" "blog") }}
-    <li>
-        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-    </li>
+<div class="post-grid">
+{{ range first 6 (where .Site.RegularPages "Section" "blog") }}
+    <div class="post-card">
+        <a href="{{ .RelPermalink }}">
+            <img src="{{ .Params.cover }}" alt="">
+            <div class="content">
+                <h3>{{ .Title }}</h3>
+                <p>{{ .Summary }}</p>
+            </div>
+        </a>
+    </div>
 {{ end }}
-</ul>
+</div>
 {{ end }}

@@ -1,6 +1,7 @@
 ---
 title: "Giới thiệu lập trình mạng với Java"
 date: 2025-01-01
+cover: "/images/cover-java.jpg"
 ---
 
 Lập trình mạng là nền tảng của các hệ thống phân tán, ứng dụng client-server

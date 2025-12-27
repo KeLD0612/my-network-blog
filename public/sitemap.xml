@@ -1,1 +1,44 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url><loc>https://KeLD0612.github.io/my-network-blog/</loc><lastmod>2025-01-02T00:00:00+00:00</lastmod></url><url><loc>https://KeLD0612.github.io/my-network-blog/blog/</loc><lastmod>2025-01-02T00:00:00+00:00</lastmod></url><url><loc>https://KeLD0612.github.io/my-network-blog/blog/javascript-1/</loc><lastmod>2025-01-02T00:00:00+00:00</lastmod></url><url><loc>https://KeLD0612.github.io/my-network-blog/blog/java-1/</loc><lastmod>2025-01-01T00:00:00+00:00</lastmod></url><url><loc>https://KeLD0612.github.io/my-network-blog/categories/</loc></url><url><loc>https://KeLD0612.github.io/my-network-blog/profile/</loc></url><url><loc>https://KeLD0612.github.io/my-network-blog/tags/</loc></url></urlset>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:1313/my-network-blog/</loc>
+    <lastmod>2025-01-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/my-network-blog/blog/</loc>
+    <lastmod>2025-01-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/my-network-blog/blog/compare-java-js-java-javascript-in-networking/</loc>
+    <lastmod>2025-01-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/my-network-blog/blog/js-network-websocket-realtime/</loc>
+    <lastmod>2025-01-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/my-network-blog/blog/java-network-network_programming-with-java/</loc>
+    <lastmod>2025-01-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/my-network-blog/blog/javascript-3-http-rest_api-with-javascript/</loc>
+    <lastmod>2025-01-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/my-network-blog/blog/javascript-2-nodejs-asynchronousmodel/</loc>
+    <lastmod>2025-01-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/my-network-blog/blog/javascript-1-introduce-javascrip-in-web-and-netword/</loc>
+    <lastmod>2025-01-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/my-network-blog/blog/java-3-socket-serversocket-in-java/</loc>
+    <lastmod>2025-01-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/my-network-blog/blog/java-2-client-server-in-java/</loc>
+    <lastmod>2025-01-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/my-network-blog/blog/java-1-introducing-networking-with-java/</loc>
+    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/my-network-blog/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/my-network-blog/profile/</loc>
+  </url><url>
+    <loc>http://localhost:1313/my-network-blog/tags/</loc>
+  </url>
+</urlset>

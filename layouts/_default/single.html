@@ -2,6 +2,11 @@
 <article>
     <h1>{{ .Title }}</h1>
     <p class="date">{{ .Date.Format "02/01/2006" }}</p>
+
+    {{ if .Params.cover }}
+    <img class="cover" src="{{ .Params.cover }}" alt="">
+    {{ end }}
+
     {{ .Content }}
 </article>
 {{ end }}

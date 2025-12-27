@@ -2,14 +2,20 @@
 title: "Profile Cá Nhân"
 ---
 
-## Xin chào, tôi là D 👋
+<div class="profile">
+<img src="/images/avatar.jpg" />
 
-Tôi là sinh viên / người học lập trình, tập trung vào:
+<div>
 
-- Lập trình mạng
-- Java Backend
-- JavaScript & Web
-- API, Client-Server
+## D – Network Developer
 
-Blog này được tạo nhằm ghi lại quá trình học tập,
-chia sẻ kiến thức và kinh nghiệm thực hành.
+Sinh viên / người học lập trình,
+tập trung vào Java Backend, JavaScript và lập trình mạng.
+
+- Java Socket, Client–Server
+- REST API, WebSocket
+- GitHub & SSG
+
+</div>
+</div>
+<!--  -->
