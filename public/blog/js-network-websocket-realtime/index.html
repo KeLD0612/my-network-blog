@@ -37,24 +37,19 @@
     
 
     <div class="post-content">
-        <p>Dưới đây là nội dung bài viết được hoàn thiện theo phong cách chia sẻ kinh nghiệm thực chiến, đi sâu vào sự khác biệt kỹ thuật và các thách thức khi triển khai thực tế. File được định dạng Markdown chuẩn.</p>
-<p>Markdown</p>
-<hr>
-<h2 id="author-admin">title: &ldquo;WebSocket và ứng dụng Real-time: Khi HTTP là chưa đủ&rdquo;
-date: 2025-01-08
-cover: &ldquo;/images/js-network-WebSocket-realtime.jpg&rdquo;
-categories: [JavaScript, Node.js, Networking]
-tags: [WebSocket, Realtime, Socket.io, Chat System]
-author: &ldquo;Admin&rdquo;</h2>
-<p>Trong các bài viết trước, chúng ta đã bàn về mô hình Request-Response tiêu chuẩn của HTTP. Client hỏi, Server trả lời. Hết chuyện. Mô hình này tuyệt vời cho việc lướt web, đọc tin tức hay gọi API lấy dữ liệu.</p>
+        <p>Trong các bài viết trước, chúng ta đã bàn về mô hình Request-Response tiêu chuẩn của HTTP. Client hỏi, Server trả lời. Hết chuyện. Mô hình này tuyệt vời cho việc lướt web, đọc tin tức hay gọi API lấy dữ liệu.</p>
 <p>Nhưng thế giới web hiện đại đòi hỏi nhiều hơn thế. Người dùng muốn chat và nhận tin nhắn ngay lập tức mà không cần F5. Người chơi game online cần thấy đối thủ di chuyển ngay khi họ bấm nút. Các bảng điều khiển tài chính cần nhảy số theo từng mili-giây.</p>
 <p>Đó là lúc mô hình HTTP truyền thống bộc lộ điểm yếu, và WebSocket xuất hiện như một vị cứu tinh. Hôm nay, tôi sẽ chia sẻ về cách tôi ứng dụng WebSocket để giải quyết bài toán thời gian thực (Real-time).</p>
 <h2 id="tại-sao-lại-cần-websocket">Tại sao lại cần WebSocket?</h2>
 <p>Trước khi WebSocket trở nên phổ biến, để làm chức năng thông báo hay chat, tôi thường phải dùng kỹ thuật <strong>Polling</strong> (hoặc Long-polling).</p>
 <p>Cơ chế của Polling khá &ldquo;ngây thơ&rdquo;: Client cứ mỗi 1-2 giây lại gửi một request lên Server hỏi: <em>&ldquo;Có tin nhắn mới không?&rdquo;</em>.</p>
 <ul>
-<li>Nếu không: Server trả về &ldquo;Không&rdquo;.</li>
-<li>Nếu có: Server trả về tin nhắn.</li>
+<li>
+<p>Nếu không: Server trả về &ldquo;Không&rdquo;.</p>
+</li>
+<li>
+<p>Nếu có: Server trả về tin nhắn.</p>
+</li>
 </ul>
 <p>Cách làm này tạo ra hàng nghìn request thừa thãi, gây lãng phí băng thông và tài nguyên server kinh khủng, đồng thời độ trễ vẫn cao.</p>
 <p>WebSocket thay đổi hoàn toàn cuộc chơi. Nó thiết lập một đường ống kết nối hai chiều bền vững (persistent connection) giữa Client và Server. Một khi kết nối được thiết lập (thông qua quá trình bắt tay - Handshake), cả hai bên có thể đẩy dữ liệu cho nhau bất cứ lúc nào mà không cần chờ bên kia hỏi.</p>
@@ -124,7 +119,6 @@ Không giống như HTTP (gửi xong là quên), WebSocket yêu cầu server ph�
 <hr>
 <h2 id="lời-kết">Lời kết</h2>
 <p>WebSocket mở ra cánh cửa cho các ứng dụng tương tác cao mà HTTP truyền thống không thể làm tốt. Nếu bạn đang định làm app chat, game online, hay hệ thống theo dõi giá coin, chứng khoán, thì WebSocket cùng với Node.js là bộ đôi hoàn hảo để bắt đầu.</p>
-
     </div>
 </article>
 

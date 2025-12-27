@@ -20,21 +20,21 @@
       <link>http://localhost:1313/my-network-blog/blog/js-network-websocket-realtime/</link>
       <pubDate>Wed, 08 Jan 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/my-network-blog/blog/js-network-websocket-realtime/</guid>
-      <description>&lt;p&gt;Dưới đây là nội dung bài viết được hoàn thiện theo phong cách chia sẻ kinh nghiệm thực chiến, đi sâu vào sự khác biệt kỹ thuật và các thách thức khi triển khai thực tế. File được định dạng Markdown chuẩn.&lt;/p&gt;&#xA;&lt;p&gt;Markdown&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;author-admin&#34;&gt;title: &amp;ldquo;WebSocket và ứng dụng Real-time: Khi HTTP là chưa đủ&amp;rdquo;&#xA;date: 2025-01-08&#xA;cover: &amp;ldquo;/images/js-network-WebSocket-realtime.jpg&amp;rdquo;&#xA;categories: [JavaScript, Node.js, Networking]&#xA;tags: [WebSocket, Realtime, Socket.io, Chat System]&#xA;author: &amp;ldquo;Admin&amp;rdquo;&lt;/h2&gt;&#xA;&lt;p&gt;Trong các bài viết trước, chúng ta đã bàn về mô hình Request-Response tiêu chuẩn của HTTP. Client hỏi, Server trả lời. Hết chuyện. Mô hình này tuyệt vời cho việc lướt web, đọc tin tức hay gọi API lấy dữ liệu.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Trong các bài viết trước, chúng ta đã bàn về mô hình Request-Response tiêu chuẩn của HTTP. Client hỏi, Server trả lời. Hết chuyện. Mô hình này tuyệt vời cho việc lướt web, đọc tin tức hay gọi API lấy dữ liệu.&lt;/p&gt;&#xA;&lt;p&gt;Nhưng thế giới web hiện đại đòi hỏi nhiều hơn thế. Người dùng muốn chat và nhận tin nhắn ngay lập tức mà không cần F5. Người chơi game online cần thấy đối thủ di chuyển ngay khi họ bấm nút. Các bảng điều khiển tài chính cần nhảy số theo từng mili-giây.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lập trình mạng nâng cao với Java</title>
       <link>http://localhost:1313/my-network-blog/blog/java-network-network_programming-with-java/</link>
       <pubDate>Tue, 07 Jan 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/my-network-blog/blog/java-network-network_programming-with-java/</guid>
-      <description>&lt;h2 id=&#34;lập-trình-mạng-nâng-cao-với-java-khi-socket-cơ-bản-là-chưa-đủ&#34;&gt;Lập trình mạng nâng cao với Java: Khi Socket cơ bản là chưa đủ&lt;/h2&gt;&#xA;&lt;p&gt;Nếu bạn đã từng &amp;ldquo;vọc vạch&amp;rdquo; lập trình mạng với Java, chắc hẳn bạn đã quá quen thuộc với cặp bài trùng &lt;strong&gt;Socket&lt;/strong&gt; và &lt;strong&gt;ServerSocket&lt;/strong&gt;. Chúng rất tuyệt vời để bắt đầu: dễ hiểu, dễ viết và chạy tốt với các ứng dụng chat đơn giản hay demo trường học.&lt;/p&gt;&#xA;&lt;p&gt;Tuy nhiên, khi mình bắt đầu làm việc với các hệ thống yêu cầu tải cao hơn, hoặc các kiến trúc phân tán phức tạp, mình nhận ra &lt;code&gt;java.net&lt;/code&gt; thuần túy bắt đầu bộc lộ những điểm yếu chết người. Đó là lúc mình phải tìm đến những &amp;ldquo;vũ khí hạng nặng&amp;rdquo; hơn: &lt;strong&gt;Java NIO&lt;/strong&gt; và &lt;strong&gt;Java RMI&lt;/strong&gt;.&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;lập-trình-mạng-nâng-cao-với-java-khi-socket-cơ-bản-là-chưa-đủ&#34;&gt;Lập trình mạng nâng cao với Java: Khi Socket cơ bản là chưa đủ&lt;/h2&gt;&#xA;&lt;p&gt;Nếu bạn đã từng &amp;ldquo;vọc vạch&amp;rdquo; lập trình mạng với Java, chắc hẳn bạn đã quá quen thuộc với cặp bài trùng &lt;strong&gt;Socket&lt;/strong&gt; và &lt;strong&gt;ServerSocket&lt;/strong&gt;. Chúng rất tuyệt vời để bắt đầu: dễ hiểu, dễ viết và chạy tốt với các ứng dụng chat đơn giản hay demo trường học.&lt;/p&gt;</description>
     </item>
     <item>
       <title>HTTP và REST API với JavaScript</title>
       <link>http://localhost:1313/my-network-blog/blog/javascript-3-http-rest_api-with-javascript/</link>
       <pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/my-network-blog/blog/javascript-3-http-rest_api-with-javascript/</guid>
-      <description>&lt;p&gt;Trong hành trình trở thành một lập trình viên Fullstack hoặc Backend, việc thấu hiểu giao thức HTTP và kiến trúc REST là bước ngoặt quan trọng nhất. Nếu như Socket là nền tảng cho các kết nối thời gian thực và liên tục, thì HTTP chính là &amp;ldquo;ngôn ngữ&amp;rdquo; tiêu chuẩn để các hệ thống trao đổi dữ liệu rời rạc trên Internet.&lt;/p&gt;&#xA;&lt;p&gt;Hôm nay, tôi sẽ chia sẻ cách tôi sử dụng JavaScript (cụ thể là Node.js) để làm chủ giao thức này và xây dựng các RESTful API chuẩn mực.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Trong hành trình trở thành một lập trình viên Fullstack hoặc Backend, việc thấu hiểu giao thức HTTP và kiến trúc REST là bước ngoặt quan trọng nhất. Nếu như Socket là nền tảng cho các kết nối thời gian thực và liên tục, thì HTTP chính là &amp;ldquo;ngôn ngữ&amp;rdquo; tiêu chuẩn để các hệ thống trao đổi dữ liệu rời rạc trên Internet.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Node.js và mô hình bất đồng bộ</title>
@@ -48,14 +48,14 @@
       <link>http://localhost:1313/my-network-blog/blog/javascript-1-introduce-javascrip-in-web-and-netword/</link>
       <pubDate>Sat, 04 Jan 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/my-network-blog/blog/javascript-1-introduce-javascrip-in-web-and-netword/</guid>
-      <description>&lt;p&gt;Nếu quay ngược thời gian khoảng 15 năm trước, khi nhắc đến JavaScript, tôi và nhiều lập trình viên khác chỉ nghĩ đến những đoạn script ngắn chạy trên trình duyệt để kiểm tra form đăng ký hay tạo hiệu ứng menu đơn giản. Lúc đó, ranh giới rất rõ ràng: JavaScript cho Frontend, còn Backend và Network là sân chơi của Java, PHP hay C++.&lt;/p&gt;&#xA;&lt;p&gt;Tuy nhiên, sự ra đời của Node.js đã thay đổi hoàn toàn cục diện đó. JavaScript không còn bị &amp;ldquo;nhốt&amp;rdquo; trong trình duyệt nữa mà đã vươn mình trở thành một ngôn ngữ mạnh mẽ cho lập trình mạng và hệ thống phía server.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Nếu quay ngược thời gian khoảng 15 năm trước, khi nhắc đến JavaScript, tôi và nhiều lập trình viên khác chỉ nghĩ đến những đoạn script ngắn chạy trên trình duyệt để kiểm tra form đăng ký hay tạo hiệu ứng menu đơn giản. Lúc đó, ranh giới rất rõ ràng: JavaScript cho Frontend, còn Backend và Network là sân chơi của Java, PHP hay C++.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Socket và ServerSocket trong Java</title>
       <link>http://localhost:1313/my-network-blog/blog/java-3-socket-serversocket-in-java/</link>
       <pubDate>Fri, 03 Jan 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/my-network-blog/blog/java-3-socket-serversocket-in-java/</guid>
-      <description>&lt;h2 id=&#34;hiểu-sâu-về-socket-trong-java-cánh-cổng-của-thế-giới-mạng&#34;&gt;Hiểu sâu về Socket trong Java: “Cánh cổng” của thế giới mạng&lt;/h2&gt;&#xA;&lt;p&gt;Chào các bạn,&lt;/p&gt;&#xA;&lt;p&gt;Nếu bạn đang mày mò xây dựng các ứng dụng &lt;strong&gt;Chat&lt;/strong&gt;, &lt;strong&gt;game online&lt;/strong&gt;&#xA;hay đơn giản là muốn hai máy tính “nói chuyện” được với nhau,&#xA;chắc chắn bạn đã từng nghe tới khái niệm &lt;strong&gt;Socket&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Hồi mới học Java, mình từng nghĩ Socket là thứ gì đó rất cao siêu.&#xA;Nhưng thực tế, hãy tưởng tượng nó đơn giản như &lt;strong&gt;một cái giắc cắm điện thoại&lt;/strong&gt; –&#xA;khi cắm đúng chỗ, hai bên có thể giao tiếp trực tiếp với nhau.&lt;/p&gt;&#xA;&lt;p&gt;Hôm nay, mình muốn chia sẻ lại những gì mình đúc kết được&#xA;về thành phần cốt lõi này trong gói &lt;code&gt;java.net&lt;/code&gt;.&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;hiểu-sâu-về-socket-trong-java-cánh-cổng-của-thế-giới-mạng&#34;&gt;Hiểu sâu về Socket trong Java: “Cánh cổng” của thế giới mạng&lt;/h2&gt;&#xA;&lt;p&gt;Chào các bạn,&lt;/p&gt;&#xA;&lt;p&gt;Nếu bạn đang mày mò xây dựng các ứng dụng &lt;strong&gt;Chat&lt;/strong&gt;, &lt;strong&gt;game online&lt;/strong&gt;&#xA;hay đơn giản là muốn hai máy tính “nói chuyện” được với nhau,&lt;/p&gt;</description>
     </item>
     <item>
       <title>Kiến trúc Client – Server trong Java: Cơ chế và hoạt động chi tiết</title>

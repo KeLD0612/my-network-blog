@@ -1,6 +1,8 @@
 ---
+
 title: "Profile"
 cover: "/images/avatar.jpg"
+
 ---
 
 ## D – Network & Backend Developer
@@ -10,11 +12,25 @@ Có nền tảng vững chắc về mô hình Client–Server và các công ngh
 
 ### Kỹ năng & Công nghệ
 
-- **Java**: Socket, Client–Server, Network Programming  
+- **Java**: Socket, Client–Server, Network Programming , OOP
 - **JavaScript / Node.js**: REST API, Backend cơ bản  
-- **Web Technologies**: HTTP, WebSocket  
-- **Công cụ & Quy trình**: GitHub, Hugo SSG  
+- **Web Technologies**: HTTP, TCP/IP, UDP, MQTT, Client–Server
+- **Công cụ & Quy trình**: GitHub, Hugo, VS Code, Arduino
+
+### Chứng chỉ
+
+- **Cisco Certified Network Associate (CCNA)**  
+  Cisco Networking Academy  
+  *(Năm cấp: 2024)*
+
+> Kiến thức nền tảng: Routing & Switching, TCP/IP, Network Security, VLAN, Subnetting
 
 ### Định hướng phát triển
 
 Mục tiêu của tôi là xây dựng các hệ thống mạng **ổn định**, **hiệu quả**, có khả năng **mở rộng tốt**, đồng thời tuân thủ các nguyên tắc thiết kế backend hiện đại và dễ bảo trì trong dài hạn.
+
+### Chứng chỉ
+
+- **Cisco Certified Network Associate (CCNA)**  
+  Cisco Networking Academy
+  https://www.credly.com/earner/earned/badge/9a777552-96cf-44af-9a95-69ce804b2ef1

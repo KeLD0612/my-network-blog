@@ -1,0 +1,15 @@
+/* Avatar trong trang profile */
+.post-cover,
+.profile-avatar {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+
+    border-radius: 50%;
+    margin: 1.5rem auto;
+
+    display: block;
+
+    border: 3px solid rgba(0, 0, 0, 0.08);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
