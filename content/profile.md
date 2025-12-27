@@ -1,21 +1,16 @@
 ---
-title: "Profile Cá Nhân"
+title: "Profile"
 ---
 
-<div class="profile">
-<img src="/images/avatar.jpg" />
+## D – Network & Backend Developer
 
-<div>
-
-## D – Network Developer
-
-Sinh viên / người học lập trình,
-tập trung vào Java Backend, JavaScript và lập trình mạng.
+Sinh viên định hướng Backend và lập trình mạng.
+Có kinh nghiệm học tập và thực hành:
 
 - Java Socket, Client–Server
-- REST API, WebSocket
-- GitHub & SSG
+- JavaScript, Node.js, REST API
+- WebSocket, HTTP
+- GitHub, Hugo SSG
 
-</div>
-</div>
-<!--  -->
+Mục tiêu: xây dựng các hệ thống mạng ổn định,
+hiệu quả và dễ mở rộng.

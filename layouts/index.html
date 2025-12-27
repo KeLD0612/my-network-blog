@@ -1,27 +1,68 @@
 {{ define "main" }}
-<div class="hero">
-    <div>
-        <h2>Blog Lập Trình Mạng</h2>
-        <p>
-            Chia sẻ kiến thức học tập và thực hành về
-            <strong>Java, JavaScript</strong> và các mô hình lập trình mạng hiện đại.
-        </p>
-    </div>
-    <img src="/images/avatar.jpg" alt="Avatar">
-</div>
 
-<h3>Bài viết mới</h3>
-<div class="post-grid">
-{{ range first 6 (where .Site.RegularPages "Section" "blog") }}
-    <div class="post-card">
-        <a href="{{ .RelPermalink }}">
-            <img src="{{ .Params.cover }}" alt="">
-            <div class="content">
-                <h3>{{ .Title }}</h3>
-                <p>{{ .Summary }}</p>
-            </div>
+<section class="hero">
+    <div>
+        <h1>Hi, tôi là <span>D</span></h1>
+        <p>
+            Sinh viên / Network Developer  
+            Chia sẻ kiến thức về Java, JavaScript
+            và lập trình mạng.
+        </p>
+        <a class="button" href="https://github.com/KeLD0612">
+            GitHub Profile
         </a>
     </div>
-{{ end }}
-</div>
+    <img src="/images/avatar.jpg" alt="Avatar">
+</section>
+
+<section class="section">
+    <h2>About Me</h2>
+    <p>
+        Tôi là người học lập trình với định hướng AIOT. Blog này vừa là portfolio cá nhân,
+        vừa là nơi lưu trữ kiến thức học tập.
+    </p>
+</section>
+
+<section class="section">
+    <h2>Skills</h2>
+    <div class="skills">
+        <div class="skill-box">
+            <h3>Java</h3>
+            <p>Socket, Client–Server, OOP</p>
+        </div>
+        <div class="skill-box">
+            <h3>JavaScript</h3>
+            <p>Node.js, REST API, WebSocket</p>
+        </div>
+        <div class="skill-box">
+            <h3>Network</h3>
+            <p>HTTP, TCP/IP, Client–Server</p>
+        </div>
+        <div class="skill-box">
+            <h3>Tools</h3>
+            <p>GitHub, Hugo, VS Code</p>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <h2>Blog</h2>
+    <div class="post-grid">
+        {{ range first 4 (where .Site.RegularPages "Section" "blog") }}
+        <div class="post-card">
+            <img src="{{ .Params.cover }}" alt="">
+            <div class="content">
+                <h3>
+                    <a class="post-title-link" href="{{ .RelPermalink }}">
+                        {{ .Title }}
+                    </a>
+                </h3>
+                <p>{{ .Summary }}</p>
+            </div>
+        </div>
+        {{ end }}
+    </div>
+</section>
+
+
 {{ end }}

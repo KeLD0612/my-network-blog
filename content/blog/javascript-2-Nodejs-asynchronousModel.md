@@ -1,6 +1,7 @@
 ---
 title: "Node.js và mô hình bất đồng bộ"
 date: 2025-01-05
+cover: "/images/Nodejs-asynchronousModel.jpg"
 ---
 
 Node.js là môi trường chạy JavaScript phía server,
@@ -8,7 +9,7 @@ Node.js là môi trường chạy JavaScript phía server,
 
 Điểm mạnh của Node.js là mô hình bất đồng bộ (asynchronous),
 cho phép xử lý nhiều kết nối cùng lúc mà không bị chặn luồng.
-
+<!--more-->
 Thay vì tạo nhiều thread như Java truyền thống,
 Node.js sử dụng event loop để xử lý yêu cầu.
 

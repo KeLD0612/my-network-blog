@@ -13,70 +13,70 @@
       <link>http://localhost:1313/my-network-blog/blog/compare-java-js-java-javascript-in-networking/</link>
       <pubDate>Thu, 09 Jan 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/my-network-blog/blog/compare-java-js-java-javascript-in-networking/</guid>
-      <description>&lt;p&gt;Java và JavaScript đều được sử dụng rộng rãi trong lập trình mạng,&#xA;nhưng mỗi ngôn ngữ có thế mạnh riêng.&lt;/p&gt;&#xA;&lt;p&gt;Java mạnh về hệ thống lớn, đa luồng và độ ổn định cao,&#xA;thường dùng trong backend doanh nghiệp.&lt;/p&gt;&#xA;&lt;p&gt;JavaScript nổi bật với tốc độ phát triển nhanh,&#xA;bất đồng bộ và khả năng xây dựng API, ứng dụng realtime.&lt;/p&gt;&#xA;&lt;p&gt;Việc lựa chọn ngôn ngữ phụ thuộc vào mục tiêu dự án&#xA;và yêu cầu hệ thống.&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;so-sánh-chuyên-sâu-java-và-javascript-trong-lập-trình-mạng&#34;&gt;So sánh chuyên sâu: Java và JavaScript trong Lập trình Mạng&lt;/h2&gt;&#xA;&lt;p&gt;Mặc dù cả Java và JavaScript đều là trụ cột của phát triển phần mềm hiện đại,&#xA;nhưng cách tiếp cận bài toán &lt;strong&gt;lập trình mạng (networking)&lt;/strong&gt; của chúng&#xA;hoàn toàn khác nhau, phù hợp với những loại hệ thống khác nhau.&lt;/p&gt;</description>
     </item>
     <item>
       <title>WebSocket và ứng dụng realtime</title>
       <link>http://localhost:1313/my-network-blog/blog/js-network-websocket-realtime/</link>
       <pubDate>Wed, 08 Jan 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/my-network-blog/blog/js-network-websocket-realtime/</guid>
-      <description>&lt;p&gt;WebSocket là giao thức cho phép giao tiếp hai chiều&#xA;giữa client và server trong thời gian thực.&lt;/p&gt;&#xA;&lt;p&gt;Khác với HTTP truyền thống,&#xA;WebSocket giữ kết nối liên tục và truyền dữ liệu ngay khi có thay đổi.&lt;/p&gt;&#xA;&lt;p&gt;JavaScript kết hợp với WebSocket thường được dùng&#xA;trong chat application, game online và hệ thống thông báo realtime.&lt;/p&gt;&#xA;&lt;p&gt;Đây là một kỹ thuật quan trọng trong lập trình mạng hiện đại.&lt;/p&gt;</description>
+      <description>&lt;p&gt;WebSocket là giao thức cho phép giao tiếp hai chiều&#xA;giữa client và server trong thời gian thực.&lt;/p&gt;&#xA;&lt;p&gt;Khác với HTTP truyền thống,&#xA;WebSocket giữ kết nối liên tục và truyền dữ liệu ngay khi có thay đổi.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lập trình mạng nâng cao với Java</title>
       <link>http://localhost:1313/my-network-blog/blog/java-network-network_programming-with-java/</link>
       <pubDate>Tue, 07 Jan 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/my-network-blog/blog/java-network-network_programming-with-java/</guid>
-      <description>&lt;p&gt;Ngoài Socket cơ bản, Java còn hỗ trợ lập trình mạng nâng cao&#xA;như RMI (Remote Method Invocation) và NIO (Non-blocking I/O).&lt;/p&gt;&#xA;&lt;p&gt;Java NIO giúp cải thiện hiệu năng bằng cách xử lý dữ liệu không đồng bộ,&#xA;phù hợp cho server có nhiều kết nối.&lt;/p&gt;&#xA;&lt;p&gt;RMI cho phép gọi phương thức từ xa,&#xA;giúp việc xây dựng hệ thống phân tán trở nên đơn giản hơn.&lt;/p&gt;&#xA;&lt;p&gt;Những kỹ thuật này thường được sử dụng trong các hệ thống lớn&#xA;và doanh nghiệp.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Ngoài Socket cơ bản, Java còn hỗ trợ lập trình mạng nâng cao&#xA;như RMI (Remote Method Invocation) và NIO (Non-blocking I/O).&lt;/p&gt;&#xA;&lt;p&gt;Java NIO giúp cải thiện hiệu năng bằng cách xử lý dữ liệu không đồng bộ,&#xA;phù hợp cho server có nhiều kết nối.&lt;/p&gt;</description>
     </item>
     <item>
       <title>HTTP và REST API với JavaScript</title>
       <link>http://localhost:1313/my-network-blog/blog/javascript-3-http-rest_api-with-javascript/</link>
       <pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/my-network-blog/blog/javascript-3-http-rest_api-with-javascript/</guid>
-      <description>&lt;p&gt;HTTP là giao thức nền tảng của web.&#xA;Trong JavaScript, HTTP thường được sử dụng để xây dựng REST API.&lt;/p&gt;&#xA;&lt;p&gt;REST API cho phép các hệ thống khác nhau giao tiếp&#xA;thông qua các phương thức như GET, POST, PUT và DELETE.&lt;/p&gt;&#xA;&lt;p&gt;Node.js kết hợp với các framework như Express.js&#xA;giúp việc xây dựng API trở nên nhanh chóng và rõ ràng.&lt;/p&gt;&#xA;&lt;p&gt;REST API đóng vai trò quan trọng trong các hệ thống client-server hiện đại.&lt;/p&gt;</description>
+      <description>&lt;p&gt;HTTP là giao thức nền tảng của web.&#xA;Trong JavaScript, HTTP thường được sử dụng để xây dựng REST API.&lt;/p&gt;&#xA;&lt;p&gt;REST API cho phép các hệ thống khác nhau giao tiếp&#xA;thông qua các phương thức như GET, POST, PUT và DELETE.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Node.js và mô hình bất đồng bộ</title>
       <link>http://localhost:1313/my-network-blog/blog/javascript-2-nodejs-asynchronousmodel/</link>
       <pubDate>Sun, 05 Jan 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/my-network-blog/blog/javascript-2-nodejs-asynchronousmodel/</guid>
-      <description>&lt;p&gt;Node.js là môi trường chạy JavaScript phía server,&#xA;được xây dựng trên nền tảng V8 của Google.&lt;/p&gt;&#xA;&lt;p&gt;Điểm mạnh của Node.js là mô hình bất đồng bộ (asynchronous),&#xA;cho phép xử lý nhiều kết nối cùng lúc mà không bị chặn luồng.&lt;/p&gt;&#xA;&lt;p&gt;Thay vì tạo nhiều thread như Java truyền thống,&#xA;Node.js sử dụng event loop để xử lý yêu cầu.&lt;/p&gt;&#xA;&lt;p&gt;Mô hình này rất phù hợp cho các ứng dụng mạng có lượng truy cập lớn&#xA;như API server hoặc ứng dụng realtime.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Node.js là môi trường chạy JavaScript phía server,&#xA;được xây dựng trên nền tảng V8 của Google.&lt;/p&gt;&#xA;&lt;p&gt;Điểm mạnh của Node.js là mô hình bất đồng bộ (asynchronous),&#xA;cho phép xử lý nhiều kết nối cùng lúc mà không bị chặn luồng.&lt;/p&gt;</description>
     </item>
     <item>
       <title>JavaScript trong lập trình Web và Network</title>
       <link>http://localhost:1313/my-network-blog/blog/javascript-1-introduce-javascrip-in-web-and-netword/</link>
       <pubDate>Sat, 04 Jan 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/my-network-blog/blog/javascript-1-introduce-javascrip-in-web-and-netword/</guid>
-      <description>&lt;p&gt;JavaScript là ngôn ngữ không thể thiếu trong lập trình web hiện đại.&#xA;Ban đầu chỉ dùng cho trình duyệt, JavaScript nay đã mở rộng sang&#xA;lập trình mạng với Node.js.&lt;/p&gt;&#xA;&lt;p&gt;Với Node.js, JavaScript có thể tạo server HTTP,&#xA;xây dựng REST API và xử lý dữ liệu bất đồng bộ hiệu quả.&lt;/p&gt;&#xA;&lt;p&gt;JavaScript phù hợp cho các ứng dụng yêu cầu phản hồi nhanh&#xA;và xử lý nhiều kết nối đồng thời.&lt;/p&gt;</description>
+      <description>&lt;p&gt;JavaScript là ngôn ngữ không thể thiếu trong lập trình web hiện đại.&#xA;Ban đầu chỉ dùng cho trình duyệt, JavaScript nay đã mở rộng sang&#xA;lập trình mạng với Node.js.&lt;/p&gt;&#xA;&lt;p&gt;Với Node.js, JavaScript có thể tạo server HTTP,&#xA;xây dựng REST API và xử lý dữ liệu bất đồng bộ hiệu quả.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Socket và ServerSocket trong Java</title>
       <link>http://localhost:1313/my-network-blog/blog/java-3-socket-serversocket-in-java/</link>
       <pubDate>Fri, 03 Jan 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/my-network-blog/blog/java-3-socket-serversocket-in-java/</guid>
-      <description>&lt;p&gt;Socket là thành phần cốt lõi trong lập trình mạng Java.&#xA;Nó đại diện cho một điểm kết nối giữa hai máy tính trong mạng.&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;ServerSocket&lt;/code&gt; được sử dụng ở phía server để lắng nghe kết nối từ client.&#xA;Khi client kết nối thành công, server tạo ra một đối tượng &lt;code&gt;Socket&lt;/code&gt;&#xA;để giao tiếp với client đó.&lt;/p&gt;&#xA;&lt;p&gt;Thông qua Socket, dữ liệu được truyền đi dưới dạng luồng&#xA;(InputStream và OutputStream).&lt;/p&gt;</description>
+      <description>&lt;p&gt;Socket là thành phần cốt lõi trong lập trình mạng Java.&#xA;Nó đại diện cho một điểm kết nối giữa hai máy tính trong mạng.&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;ServerSocket&lt;/code&gt; được sử dụng ở phía server để lắng nghe kết nối từ client.&#xA;Khi client kết nối thành công, server tạo ra một đối tượng &lt;code&gt;Socket&lt;/code&gt;&#xA;để giao tiếp với client đó.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Mô hình Client – Server trong Java</title>
       <link>http://localhost:1313/my-network-blog/blog/java-2-client-server-in-java/</link>
       <pubDate>Thu, 02 Jan 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/my-network-blog/blog/java-2-client-server-in-java/</guid>
-      <description>&lt;p&gt;Mô hình Client – Server là kiến trúc phổ biến nhất trong lập trình mạng.&#xA;Trong mô hình này, client gửi yêu cầu và server xử lý, sau đó trả về kết quả.&lt;/p&gt;&#xA;&lt;p&gt;Trong Java, server thường được xây dựng bằng lớp &lt;code&gt;ServerSocket&lt;/code&gt;,&#xA;trong khi client sử dụng lớp &lt;code&gt;Socket&lt;/code&gt; để kết nối.&lt;/p&gt;&#xA;&lt;p&gt;Server sẽ mở một cổng (port) và chờ client kết nối.&#xA;Khi có kết nối, server tạo một luồng riêng để xử lý,&#xA;giúp phục vụ nhiều client cùng lúc.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Mô hình Client – Server là kiến trúc phổ biến nhất trong lập trình mạng.&#xA;Trong mô hình này, client gửi yêu cầu và server xử lý, sau đó trả về kết quả.&lt;/p&gt;&#xA;&lt;p&gt;Trong Java, server thường được xây dựng bằng lớp &lt;code&gt;ServerSocket&lt;/code&gt;,&#xA;trong khi client sử dụng lớp &lt;code&gt;Socket&lt;/code&gt; để kết nối.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Giới thiệu lập trình mạng với Java</title>
       <link>http://localhost:1313/my-network-blog/blog/java-1-introducing-networking-with-java/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/my-network-blog/blog/java-1-introducing-networking-with-java/</guid>
-      <description>&lt;p&gt;Lập trình mạng là nền tảng của các hệ thống phân tán, ứng dụng client-server&#xA;và các dịch vụ Internet hiện đại. Java là một trong những ngôn ngữ được sử dụng&#xA;rộng rãi trong lĩnh vực này nhờ tính ổn định, bảo mật và khả năng chạy đa nền tảng.&lt;/p&gt;&#xA;&lt;p&gt;Java cung cấp thư viện &lt;code&gt;java.net&lt;/code&gt; cho phép lập trình viên dễ dàng làm việc với&#xA;Socket, ServerSocket, URL và các giao thức mạng phổ biến.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Lập trình mạng là nền tảng của các hệ thống phân tán, ứng dụng client-server&#xA;và các dịch vụ Internet hiện đại. Java là một trong những ngôn ngữ được sử dụng&#xA;rộng rãi trong lĩnh vực này nhờ tính ổn định, bảo mật và khả năng chạy đa nền tảng.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Profile Cá Nhân</title>
+      <title>Profile</title>
       <link>http://localhost:1313/my-network-blog/profile/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/my-network-blog/profile/</guid>
-      <description>&lt;h2 id=&#34;xin-chào-tôi-là-d-&#34;&gt;Xin chào, tôi là D 👋&lt;/h2&gt;&#xA;&lt;p&gt;Tôi là sinh viên / người học lập trình, tập trung vào:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Lập trình mạng&lt;/li&gt;&#xA;&lt;li&gt;Java Backend&lt;/li&gt;&#xA;&lt;li&gt;JavaScript &amp;amp; Web&lt;/li&gt;&#xA;&lt;li&gt;API, Client-Server&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Blog này được tạo nhằm ghi lại quá trình học tập,&#xA;chia sẻ kiến thức và kinh nghiệm thực hành.&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;d--network--backend-developer&#34;&gt;D – Network &amp;amp; Backend Developer&lt;/h2&gt;&#xA;&lt;p&gt;Sinh viên định hướng Backend và lập trình mạng.&#xA;Có kinh nghiệm học tập và thực hành:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Java Socket, Client–Server&lt;/li&gt;&#xA;&lt;li&gt;JavaScript, Node.js, REST API&lt;/li&gt;&#xA;&lt;li&gt;WebSocket, HTTP&lt;/li&gt;&#xA;&lt;li&gt;GitHub, Hugo SSG&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Mục tiêu: xây dựng các hệ thống mạng ổn định,&#xA;hiệu quả và dễ mở rộng.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

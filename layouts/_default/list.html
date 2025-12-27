@@ -1,17 +1,28 @@
 {{ define "main" }}
-<h2>{{ .Title }}</h2>
 
-<div class="post-grid">
-{{ range .Pages }}
-    <div class="post-card">
-        <a href="{{ .RelPermalink }}">
+<section class="section">
+    <h2>{{ .Title }}</h2>
+
+    <div class="post-grid">
+        {{ range .Pages }}
+        <div class="post-card">
+            {{ if .Params.cover }}
             <img src="{{ .Params.cover }}" alt="">
+            {{ end }}
+
             <div class="content">
-                <h3>{{ .Title }}</h3>
-                <p>{{ .Summary }}</p>
+                <h3>
+                    <a class="post-title-link" href="{{ .RelPermalink }}">
+                        {{ .Title }}
+                    </a>
+                </h3>
+
+                <!-- Summary gọn, không full -->
+                <p>{{ .Plain | truncate 180 }}</p>
             </div>
-        </a>
+        </div>
+        {{ end }}
     </div>
-{{ end }}
-</div>
+</section>
+
 {{ end }}

@@ -1,6 +1,7 @@
 ---
 title: "Socket và ServerSocket trong Java"
 date: 2025-01-03
+cover: "/images/Socket-ServerSocket-in-Java.jpg"
 ---
 
 Socket là thành phần cốt lõi trong lập trình mạng Java.
@@ -9,7 +10,7 @@ Nó đại diện cho một điểm kết nối giữa hai máy tính trong mạ
 `ServerSocket` được sử dụng ở phía server để lắng nghe kết nối từ client.
 Khi client kết nối thành công, server tạo ra một đối tượng `Socket`
 để giao tiếp với client đó.
-
+<!--more-->
 Thông qua Socket, dữ liệu được truyền đi dưới dạng luồng
 (InputStream và OutputStream).
 

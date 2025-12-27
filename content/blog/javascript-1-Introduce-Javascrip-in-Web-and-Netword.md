@@ -1,6 +1,7 @@
 ---
 title: "JavaScript trong lập trình Web và Network"
 date: 2025-01-04
+cover: "/images/Introduce-Javascrip-in-Web-and-Netword.jpg"
 ---
 
 JavaScript là ngôn ngữ không thể thiếu trong lập trình web hiện đại.
@@ -9,7 +10,7 @@ lập trình mạng với Node.js.
 
 Với Node.js, JavaScript có thể tạo server HTTP,
 xây dựng REST API và xử lý dữ liệu bất đồng bộ hiệu quả.
-
+<!--more-->
 JavaScript phù hợp cho các ứng dụng yêu cầu phản hồi nhanh
 và xử lý nhiều kết nối đồng thời.
 

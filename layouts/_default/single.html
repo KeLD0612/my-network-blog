@@ -1,12 +1,19 @@
 {{ define "main" }}
-<article>
-    <h1>{{ .Title }}</h1>
-    <p class="date">{{ .Date.Format "02/01/2006" }}</p>
+
+<article class="post-detail">
+    <h1 class="post-title">{{ .Title }}</h1>
+
+    <p class="post-meta">
+        {{ .Date.Format "02/01/2006" }}
+    </p>
 
     {{ if .Params.cover }}
-    <img class="cover" src="{{ .Params.cover }}" alt="">
+    <img class="post-cover" src="{{ .Params.cover }}" alt="">
     {{ end }}
 
-    {{ .Content }}
+    <div class="post-content">
+        {{ .Content }}
+    </div>
 </article>
+
 {{ end }}
