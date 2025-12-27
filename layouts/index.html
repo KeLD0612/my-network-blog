@@ -1,0 +1,16 @@
+{{ define "main" }}
+<h2>Chào mừng đến với Blog Lập Trình Mạng</h2>
+<p>
+Blog chia sẻ kiến thức học tập và thực hành về <strong>Java & JavaScript</strong>
+trong lĩnh vực lập trình mạng, backend và web.
+</p>
+
+<h3>Bài viết mới</h3>
+<ul>
+{{ range first 5 (where .Site.RegularPages "Section" "blog") }}
+    <li>
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    </li>
+{{ end }}
+</ul>
+{{ end }}

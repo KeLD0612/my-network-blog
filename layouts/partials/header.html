@@ -1,0 +1,10 @@
+<header>
+    <nav class="nav">
+        <h1 class="logo">D | Network Dev</h1>
+        <ul>
+            {{ range .Site.Menus.main }}
+            <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+            {{ end }}
+        </ul>
+    </nav>
+</header>
