@@ -7,7 +7,7 @@ cover: "/images/js-network-WebSocket-realtime.jpg"
 Trong các bài viết trước, chúng ta đã bàn về mô hình Request-Response tiêu chuẩn của HTTP. Client hỏi, Server trả lời. Hết chuyện. Mô hình này tuyệt vời cho việc lướt web, đọc tin tức hay gọi API lấy dữ liệu.
 
 Nhưng thế giới web hiện đại đòi hỏi nhiều hơn thế. Người dùng muốn chat và nhận tin nhắn ngay lập tức mà không cần F5. Người chơi game online cần thấy đối thủ di chuyển ngay khi họ bấm nút. Các bảng điều khiển tài chính cần nhảy số theo từng mili-giây.
-
+<!--more-->
 Đó là lúc mô hình HTTP truyền thống bộc lộ điểm yếu, và WebSocket xuất hiện như một vị cứu tinh. Hôm nay, tôi sẽ chia sẻ về cách tôi ứng dụng WebSocket để giải quyết bài toán thời gian thực (Real-time).
 
 ## Tại sao lại cần WebSocket?
