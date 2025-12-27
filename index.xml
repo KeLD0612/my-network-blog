@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog Lập Trình Mạng | KeLD0612</title><link>https://KeLD0612.github.io/my-network-blog/</link><description>Recent content on Blog Lập Trình Mạng | KeLD0612</description><generator>Hugo</generator><language>vi</language><lastBuildDate>Thu, 02 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://KeLD0612.github.io/my-network-blog/index.xml" rel="self" type="application/rss+xml"/><item><title>JavaScript trong lập trình Web và Network</title><link>https://KeLD0612.github.io/my-network-blog/blog/javascript-1/</link><pubDate>Thu, 02 Jan 2025 00:00:00 +0000</pubDate><guid>https://KeLD0612.github.io/my-network-blog/blog/javascript-1/</guid><description>&lt;p&gt;JavaScript không chỉ dùng cho giao diện,
+mà còn rất mạnh mẽ trong lập trình mạng với Node.js,
+HTTP, REST API và WebSocket.&lt;/p&gt;</description></item><item><title>Giới thiệu lập trình mạng với Java</title><link>https://KeLD0612.github.io/my-network-blog/blog/java-1/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><guid>https://KeLD0612.github.io/my-network-blog/blog/java-1/</guid><description>&lt;p&gt;Java là một trong những ngôn ngữ phổ biến nhất để xây dựng
+ứng dụng mạng nhờ thư viện mạnh mẽ và tính ổn định cao.&lt;/p&gt;
+&lt;p&gt;Trong Java, lập trình mạng chủ yếu xoay quanh Socket,
+ServerSocket và mô hình Client-Server.&lt;/p&gt;</description></item><item><title>Profile Cá Nhân</title><link>https://KeLD0612.github.io/my-network-blog/profile/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://KeLD0612.github.io/my-network-blog/profile/</guid><description>&lt;h2 id="xin-chào-tôi-là-d-"&gt;Xin chào, tôi là D 👋&lt;/h2&gt;
+&lt;p&gt;Tôi là sinh viên / người học lập trình, tập trung vào:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Lập trình mạng&lt;/li&gt;
+&lt;li&gt;Java Backend&lt;/li&gt;
+&lt;li&gt;JavaScript &amp;amp; Web&lt;/li&gt;
+&lt;li&gt;API, Client-Server&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Blog này được tạo nhằm ghi lại quá trình học tập,
+chia sẻ kiến thức và kinh nghiệm thực hành.&lt;/p&gt;</description></item></channel></rss>
