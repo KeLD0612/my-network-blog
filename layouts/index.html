@@ -57,7 +57,7 @@
                         {{ .Title }}
                     </a>
                 </h3>
-                <p>{{ .Summary }}</p>
+                <p>{{ .Plain | truncate 180 }}</p>
             </div>
         </div>
         {{ end }}
