@@ -53,13 +53,14 @@ giúp phục vụ nhiều client cùng lúc.&lt;/p&gt;</description></item><item
 và các dịch vụ Internet hiện đại. Java là một trong những ngôn ngữ được sử dụng
 rộng rãi trong lĩnh vực này nhờ tính ổn định, bảo mật và khả năng chạy đa nền tảng.&lt;/p&gt;
 &lt;p&gt;Java cung cấp thư viện &lt;code&gt;java.net&lt;/code&gt; cho phép lập trình viên dễ dàng làm việc với
-Socket, ServerSocket, URL và các giao thức mạng phổ biến.&lt;/p&gt;</description></item><item><title>Profile Cá Nhân</title><link>https://KeLD0612.github.io/my-network-blog/profile/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://KeLD0612.github.io/my-network-blog/profile/</guid><description>&lt;h2 id="xin-chào-tôi-là-d-"&gt;Xin chào, tôi là D 👋&lt;/h2&gt;
-&lt;p&gt;Tôi là sinh viên / người học lập trình, tập trung vào:&lt;/p&gt;
+Socket, ServerSocket, URL và các giao thức mạng phổ biến.&lt;/p&gt;</description></item><item><title>Profile Cá Nhân</title><link>https://KeLD0612.github.io/my-network-blog/profile/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://KeLD0612.github.io/my-network-blog/profile/</guid><description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h2 id="d--network-developer"&gt;D – Network Developer&lt;/h2&gt;
+&lt;p&gt;Sinh viên / người học lập trình,
+tập trung vào Java Backend, JavaScript và lập trình mạng.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Lập trình mạng&lt;/li&gt;
-&lt;li&gt;Java Backend&lt;/li&gt;
-&lt;li&gt;JavaScript &amp;amp; Web&lt;/li&gt;
-&lt;li&gt;API, Client-Server&lt;/li&gt;
+&lt;li&gt;Java Socket, Client–Server&lt;/li&gt;
+&lt;li&gt;REST API, WebSocket&lt;/li&gt;
+&lt;li&gt;GitHub &amp;amp; SSG&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Blog này được tạo nhằm ghi lại quá trình học tập,
-chia sẻ kiến thức và kinh nghiệm thực hành.&lt;/p&gt;</description></item></channel></rss>
+&lt;!-- raw HTML omitted --&gt;</description></item></channel></rss>
