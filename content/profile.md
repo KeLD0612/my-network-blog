@@ -5,10 +5,15 @@ cover: "/images/avatar.jpg"
 
 ---
 
+## Thông tin cơ bản
+
+- Sinh viên năm 4 trường Đại học Công nghệ thành phố Hồ Chí Minh (HUTECH).
+- Mình tên Nguyễn Hoàng Hà hiện tại mình đã 21 tuổi hehe.
+- Học tập và làm việc tại Tp.HCM.
+
 ## D – Network & Backend Developer
 
-Sinh viên định hướng **Backend Developer** với trọng tâm vào **lập trình mạng và hệ thống phía server**.  
-Có nền tảng vững chắc về mô hình Client–Server và các công nghệ web hiện đại.
+Xin chào các bạn minh hiện tại là sinh viên có định hướng định hướng **AIoT** với trọng tâm vào **lập trình tự động hóa** và có thêm sở thích tìm hiểu về các mô hình mạng để kết hợp với các dự án AIoT trong tương lai của mình. Blog này để chia sẽ các kinh nghiệm cá nhân  trong quá trình học tập đến mọi người.
 
 ### Kỹ năng & Công nghệ
 
