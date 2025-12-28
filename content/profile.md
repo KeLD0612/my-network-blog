@@ -10,8 +10,9 @@ cover: "/images/avatar.jpg"
 - Sinh viên năm 4 trường Đại học Công nghệ thành phố Hồ Chí Minh (HUTECH).
 - Mình tên Nguyễn Hoàng Hà hiện tại mình đã 21 tuổi hehe.
 - Học tập và làm việc tại Tp.HCM.
+- Liên hệ mình qua: nguyenhoangha04022004@gmail.com hoặc zalo 0899964974
 
-## D – Network & Backend Developer
+## D – AIoT & Network Developer
 
 Xin chào các bạn minh hiện tại là sinh viên có định hướng định hướng **AIoT** với trọng tâm vào **lập trình tự động hóa** và có thêm sở thích tìm hiểu về các mô hình mạng để kết hợp với các dự án AIoT trong tương lai của mình. Blog này để chia sẽ các kinh nghiệm cá nhân  trong quá trình học tập đến mọi người.
 
